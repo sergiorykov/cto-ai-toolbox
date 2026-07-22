@@ -35,7 +35,7 @@ last_updated: 2026-07-22
 
 ### Task 4: Approval gate
 
-- [ ] CTO reviews migrated docs and removes their `requires_approve` markers
+- [x] CTO reviews migrated docs and removes their `requires_approve` markers — the whole package approved 2026-07-23
 
 ## References
 
