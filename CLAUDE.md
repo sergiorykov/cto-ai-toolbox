@@ -1,9 +1,6 @@
 ---
-title: CLAUDE.md — operating guide for cto-ai-toolbox
-description: Purpose, conventions, trust model, research lifecycle and assistant contract for this repo
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # cto-ai-toolbox — operating guide
@@ -16,22 +13,20 @@ Source of truth for intent: [Vision of AI-assisted CTO](personal/vision-ai-assis
 
 ## Trust model (critical)
 
-Every doc starts with YAML frontmatter:
+Docs carry no permanent frontmatter: the title is the `# H1` heading, the description is the paragraph right under it. A doc that is **new or changed — i.e. requires approval** — starts with a technical marker section:
 
 ```yaml
 ---
-title: <human-readable title>
-description: <one line — what this doc is>
+requires_approve: true
 last_updated: YYYY-MM-DD
-approved_by:
-approved_when:
 ---
 ```
 
-- `approved_by` + `approved_when` **filled** → the doc is approved ground truth; you may rely on it.
-- **Empty** → generated context only. When using such a doc, explicitly flag it as "not approved, but potentially useful". Never silently build conclusions on unapproved docs — this protects against context drift and abandoned researches.
-- **Approval decays on change**: any edit to an approved doc invalidates its approval — clear `approved_by`/`approved_when` in the same edit, and explicitly push the author to get the changed files re-approved.
-- **The number of unapproved docs must not grow — better: only shrink.** From time to time, at the start of a new session, propose to the CTO a review of a few pending docs.
+- **Marker present** → unapproved context only. When using such a doc, explicitly flag it as "not approved, but potentially useful". Never silently build conclusions on unapproved docs — this protects against context drift and abandoned researches.
+- **Marker absent** → approved ground truth; you may rely on it.
+- **Approval = the CTO deletes the marker** (it is technical and is removed after approval). The deleting commit is the approval record — git history answers who approved and when.
+- **Approval decays on change**: any edit to an approved doc re-adds the marker in the same change; explicitly push the author to get the changed files re-approved.
+- **The number of marked docs must not grow — better: only shrink.** From time to time, at the start of a new session, propose to the CTO a review of a few pending docs. The exact review queue: `git grep -l "requires_approve"`.
 
 ## Atomicity of work
 
@@ -72,10 +67,10 @@ Research doc structure: `xxxx-overview.md` (accessibly explains the meaning of t
 ## Specs and plans — mandatory
 
 - Any new research, new knowledge package, structural change of the knowledge base, or change to the agent team **starts with the `superpowers:brainstorming` skill**. No artifacts are produced until the design is approved.
-- Save the agreed design to `docs/specs/YYYY-MM-DD-<topic>-design.md`. **Design approval = the trust model**: the CTO fills `approved_by`/`approved_when` in the spec — that is the gate. Commit the spec as its own commit before execution starts.
+- Save the agreed design to `docs/specs/YYYY-MM-DD-<topic>-design.md`. **Design approval = the trust model**: the CTO deletes the spec's `requires_approve` marker — that is the gate. Commit the spec as its own commit before execution starts.
 - After the spec — `superpowers:writing-plans`: the plan goes to `docs/plans/YYYY-MM-DD-<topic>.md`, also committed before execution.
 - At the end of the work, update the spec if execution deviated from it: the spec must describe what was actually done. (Per the trust model, the edit clears its approval — explicitly seek re-approval, so the CTO always sees the delta between plan and reality.)
-- Exception: trivial edits (typos, link fixes, frontmatter/approval updates, 1–2 doc changes with no change of meaning) — no spec needed, but explicitly say the task is going without a spec.
+- Exception: trivial edits (typos, link fixes, approval-marker updates, 1–2 doc changes with no change of meaning) — no spec needed, but explicitly say the task is going without a spec.
 - Ephemeral skill state (`.superpowers/`: review diffs, progress files, brainstorm mockups) is never committed — it is in the root `.gitignore` and can be deleted after the work completes. Permanent planning documentation lives only in [docs/](docs/).
 
 ## Working style (assistant contract)

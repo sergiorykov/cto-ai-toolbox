@@ -1,12 +1,11 @@
 ---
-title: Knowledge base — overview
-description: What the curated source lists are for, how any CTO can use them, and proposed follow-up cases
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Knowledge base — overview
+
+What the curated source lists are for, how any CTO can use them, and proposed follow-up cases
 
 ## What this is
 

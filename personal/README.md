@@ -1,9 +1,6 @@
 ---
-title: personal/ — the CTO's own theses
-description: Landing — verbatim theses of the CTO (vision, principles, conventions, backlog)
+requires_approve: true
 last_updated: 2026-07-23
-approved_by:
-approved_when:
 ---
 
 # personal/

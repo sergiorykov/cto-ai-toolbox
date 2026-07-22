@@ -1,9 +1,6 @@
 ---
-title: docs/ — planning home
-description: Landing — specs and plans for all researches and tasks, plus the shared consultant stance
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # docs/
@@ -14,7 +11,7 @@ Planning home of the repo: **all specs and plans for all researches and tasks li
 
 | Item | What it is |
 |---|---|
-| specs/ | Approved designs from `superpowers:brainstorming`, named `YYYY-MM-DD-<topic>-design.md`; the CTO's frontmatter approval is the gate to start work |
+| specs/ | Approved designs from `superpowers:brainstorming`, named `YYYY-MM-DD-<topic>-design.md`; the CTO removing the spec's `requires_approve` marker is the gate to start work |
 | [plans/](plans/) | Execution plans from `superpowers:writing-plans`, one file per research/task, named `YYYY-MM-DD-<topic>.md` |
 | [plans/2026-07-22-source-lists-research.md](plans/2026-07-22-source-lists-research.md) | Spec of the first research: curated source lists |
 | [consultant-stance.md](consultant-stance.md) | Proposed reference minds (10 AI practitioners) and the extended analysis toolkit |

@@ -1,12 +1,11 @@
 ---
-title: Agent spec — org-designer
-description: Org-lens agent for structure, team topologies, team formation, grades and competency matrices
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # org-designer
+
+Org-lens agent for structure, team topologies, team formation, grades and competency matrices
 
 ## Mission
 

@@ -1,12 +1,11 @@
 ---
-title: Agent spec — research-analyst
-description: Deep multi-source research agent producing overview, deep-dive and case docs per repo conventions
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # research-analyst
+
+Deep multi-source research agent producing overview, deep-dive and case docs per repo conventions
 
 ## Mission
 
@@ -35,7 +34,7 @@ A research package in `research/<topic>/` with a README landing, ready for [chal
 
 ## Definition of done
 
-- Every doc has frontmatter; sources linked in text and duplicated in References.
+- Every doc carries the `requires_approve` marker and the `# H1` + description header; sources linked in text and duplicated in References.
 - Primary vs secondary sources labeled; unverifiable claims marked.
 - Overview readable standalone by any CTO; practical next steps and proposed cases included.
 

@@ -1,9 +1,6 @@
 ---
-title: knowledge-base/tools — tools and utilities
-description: Landing — docs on concrete tools amplifying the CTO's daily work
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # knowledge-base/tools

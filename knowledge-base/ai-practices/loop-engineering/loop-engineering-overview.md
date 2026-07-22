@@ -1,12 +1,11 @@
 ---
-title: Loop Engineering Overview — Meaning and Trend
-description: What loop engineering is, the anatomy of a loop per Osmani, where the trend is heading, and the main risks
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Overview: Meaning and Trend
+
+What loop engineering is, the anatomy of a loop per Osmani, where the trend is heading, and the main risks
 
 
 ## The meaning in two paragraphs

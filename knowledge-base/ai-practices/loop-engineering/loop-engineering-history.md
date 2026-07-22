@@ -1,12 +1,11 @@
 ---
-title: Loop Engineering Background — Names, Articles, Repositories
-description: Chronology of how the term "loop engineering" emerged, key people, primary sources, and repositories
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Background: Names, Articles, Repositories
+
+Chronology of how the term "loop engineering" emerged, key people, primary sources, and repositories
 
 
 ## How the term emerged (chronology)

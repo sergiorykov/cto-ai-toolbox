@@ -1,9 +1,6 @@
 ---
-title: Collaboration principles with the AI partner
-description: Faithful English translation of the CTO's verbatim theses on how the AI partner must work; ru file is source of truth
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Collaboration principles

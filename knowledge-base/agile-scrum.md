@@ -1,10 +1,11 @@
 ---
-title: Agile & Scrum — Canon and Critique
-description: Curated primary sources for agile/lean/scaling frameworks plus the strongest well-argued criticism of the agile-industrial complex.
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
+
+# Agile & Scrum — Canon and Critique
+
+Curated primary sources for agile/lean/scaling frameworks plus the strongest well-argued criticism of the agile-industrial complex.
 
 Canon first, critique second — read both. The goal is challenged, working meaning of "agile", not framework cargo cult.
 

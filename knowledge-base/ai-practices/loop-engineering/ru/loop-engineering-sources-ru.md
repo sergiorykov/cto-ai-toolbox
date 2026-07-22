@@ -1,9 +1,6 @@
 ---
-title: Loop engineering — русскоязычные материалы (авторы, статьи, видео)
-description: Русскоязычные авторы, статьи и видео по loop engineering — Поломодов, Смирнов, Podlodka и обзорные материалы
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Русскоязычные материалы: авторы, статьи, видео

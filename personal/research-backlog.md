@@ -1,9 +1,6 @@
 ---
-title: Research backlog
-description: Faithful English translation of the CTO's verbatim research task statements; ru file is source of truth
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Research backlog

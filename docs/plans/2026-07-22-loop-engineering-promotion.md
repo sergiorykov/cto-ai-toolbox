@@ -1,9 +1,6 @@
 ---
-title: Plan — promote loop-engineering research into the knowledge base
-description: Spec for inventing the top-level grouping folder and migrating research/loop-engineering to conventions
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Loop-engineering promotion — spec & plan
@@ -38,7 +35,7 @@ approved_when:
 
 ### Task 4: Approval gate
 
-- [ ] CTO reviews migrated docs and fills `approved_by` / `approved_when`
+- [ ] CTO reviews migrated docs and removes their `requires_approve` markers
 
 ## References
 

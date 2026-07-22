@@ -1,10 +1,11 @@
 ---
-title: CTO Role, Technology Strategy & Staff-Plus IC Track
-description: Curated, verified awesome-lists, books, blogs, newsletters, and communities for the CTO role, technology strategy, org design, and the staff-plus individual contributor track.
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
+
+# CTO Role, Technology Strategy & Staff-Plus IC Track
+
+Curated, verified awesome-lists, books, blogs, newsletters, and communities for the CTO role, technology strategy, org design, and the staff-plus individual contributor track.
 
 ## Awesome Lists & Curated Repos
 

@@ -1,9 +1,6 @@
 ---
-title: "How-to: a loop engineering adoption plan for a fullstack monorepo"
-description: "Practical case study: a phased plan for adopting loop engineering in a fullstack monorepo (Node.js + PostgreSQL + Docker + Playwright)."
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # How-to: a loop engineering adoption plan for a fullstack monorepo

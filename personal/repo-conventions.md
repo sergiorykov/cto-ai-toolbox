@@ -1,9 +1,6 @@
 ---
-title: Repo conventions
-description: Faithful English translation of the CTO's verbatim theses on structure, languages, naming and doc format; ru file is source of truth
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Repo conventions
@@ -54,6 +51,13 @@ Refinement (statement of 2026-07-22, later):
 
 > Formatting of all docs: add to the beginning of every doc a section title/description/last_updated and — most importantly — approved_by, approved_when. You may rely only on docs that carry my approval — all other generated docs are context only, about which you always explicitly state that it has not passed approval but contains something useful — for the case when I go too wide into context and start abandoning researches.
 
+## Doc header and marker-based approval
+
+Statement of 2026-07-23:
+
+> In all docs we change the header. Title and description go into the `# title`, with the description as text under it.
+> The `---` section appears ONLY for docs that are new or changed — requiring approval. After approval this section is deleted as technical. In the section: `--- requires_approve true, last_updated ---`.
+
 ## Planning
 
 > For planning use /docs/ (I believe your planning skill is called superpowers) — and here all the specs for all researches and tasks.
@@ -75,7 +79,7 @@ Refinement (statement of 2026-07-22): a dump of the planning rules from another 
 > - .superpowers/ must be in the root .gitignore. Add this line right at project initialization — do not rely on the nested self-ignores of individual skills.
 > - The contents of .superpowers/ can be deleted after a feature completes; nothing valuable for history lives there.
 
-Adaptation in this repo (see [CLAUDE.md](../CLAUDE.md), section "Specs and plans — mandatory"): docs/specs/ and docs/plans/ are used instead of docs/superpowers/* (the /docs/ canon is set above); design approval = filling approved_by/approved_when in the spec.
+Adaptation in this repo (see [CLAUDE.md](../CLAUDE.md), section "Specs and plans — mandatory"): docs/specs/ and docs/plans/ are used instead of docs/superpowers/* (the /docs/ canon is set above); design approval = the CTO deleting the requires_approve technical section from the spec.
 
 ## Approval, atomicity, knowledge base
 

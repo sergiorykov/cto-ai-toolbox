@@ -1,9 +1,6 @@
 ---
-title: "How-to: план внедрения loop engineering в fullstack-монорепо"
-description: "Практический кейс: поэтапный план внедрения loop engineering в fullstack-монорепо (Node.js + PostgreSQL + Docker + Playwright)."
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # How-to: план внедрения loop engineering в fullstack-монорепо

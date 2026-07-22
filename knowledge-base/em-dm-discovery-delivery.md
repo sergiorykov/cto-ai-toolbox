@@ -1,10 +1,11 @@
 ---
-title: Product Discovery & Delivery — EM/DM Sources
-description: Curated primary sources on product discovery (SVPG, Torres, Patton, dual-track) and delivery performance (DORA, SPACE, flow metrics, delivery management).
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
+
+# Product Discovery & Delivery — EM/DM Sources
+
+Curated primary sources on product discovery (SVPG, Torres, Patton, dual-track) and delivery performance (DORA, SPACE, flow metrics, delivery management).
 
 Discovery decides whether you build the right thing; delivery decides whether you build it fast and predictably. Both halves below, primary sources only.
 

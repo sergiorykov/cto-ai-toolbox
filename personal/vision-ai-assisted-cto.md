@@ -1,9 +1,6 @@
 ---
-title: Vision of AI-assisted CTO
-description: Faithful English translation of the CTO's verbatim theses; the ru file is the source of truth
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Vision of AI-assisted CTO

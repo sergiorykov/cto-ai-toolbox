@@ -1,9 +1,6 @@
 ---
-title: Technology Radars
-description: Public technology radars, radar-building tooling, and guides for running your own radar
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Technology Radars

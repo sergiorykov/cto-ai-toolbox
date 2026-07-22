@@ -1,9 +1,6 @@
 ---
-title: Technology Source Lists
-description: Curated awesome lists and canonical resources by technology domain for a hands-on CTO in a Unity game studio
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Technology Source Lists

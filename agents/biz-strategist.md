@@ -1,12 +1,11 @@
 ---
-title: Agent spec — biz-strategist
-description: Business-lens agent aligning technical work with product, P&L, discovery and IT strategy
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # biz-strategist
+
+Business-lens agent aligning technical work with product, P&L, discovery and IT strategy
 
 ## Mission
 

@@ -1,16 +1,13 @@
 ---
-title: agents/ — the personal AI team
-description: Landing — specs of AI agents plugged in per request to validate, challenge and research; proposed, pending CTO approval
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # agents/
 
 The CTO's personal AI team: agents with different skills, plugged in per request — to **validate**, **challenge**, and **conduct researches**. This implements the vision thesis "AI as a personal team with different skills" from the [Vision of AI-assisted CTO](../personal/vision-ai-assisted-cto.md); the request itself is recorded in [collaboration-principles.md](../personal/collaboration-principles.md).
 
-Status: **proposed specs, not approved** — treat as context until the CTO fills `approved_by`/`approved_when`.
+Status: **proposed specs, not approved** — treat as context while the `requires_approve` marker is present.
 
 The team is **installed as real Claude Code subagents** in `.claude/agents/` (one file per agent, same names) — Claude Code picks them up automatically per request, or invoke explicitly ("use the challenger agent on this"). The specs here remain the source for those system prompts.
 
@@ -27,7 +24,7 @@ flowchart LR
     team --> od[org-designer]
     ra & ts & bs & od --> ch[challenger + systems-mapper + risk-officer]
     ch --> val[validator]
-    val --> approve[CTO approval:\napproved_by / approved_when]
+    val --> approve[CTO approval:\nrequires_approve marker removed]
     approve --> kb[(Knowledge base:\ntop-level folders)]
 ```
 

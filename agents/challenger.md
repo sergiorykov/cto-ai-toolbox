@@ -1,12 +1,11 @@
 ---
-title: Agent spec — challenger
-description: Adversarial agent attacking assumptions, meanings and vision-fit of requests, plans and research results
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # challenger
+
+Adversarial agent attacking assumptions, meanings and vision-fit of requests, plans and research results
 
 ## Mission
 

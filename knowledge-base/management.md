@@ -1,9 +1,6 @@
 ---
-title: Engineering Management & Organizational Design — Source List
-description: Curated, verified sources on engineering management, org design, career ladders, hiring, and feedback for a hands-on CTO.
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Engineering Management & Organizational Design

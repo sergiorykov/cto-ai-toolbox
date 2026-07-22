@@ -1,9 +1,6 @@
 ---
-title: ai-practices/ — AI-era engineering practices
-description: Landing — group of final artifacts on AI-era engineering practices; first package is loop engineering
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # knowledge-base/ai-practices/

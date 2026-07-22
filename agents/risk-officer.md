@@ -1,12 +1,11 @@
 ---
-title: Agent spec — risk-officer
-description: Risk-lens agent running pre-mortems, risk registers and AI-specific risk analysis
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # risk-officer
+
+Risk-lens agent running pre-mortems, risk registers and AI-specific risk analysis
 
 ## Mission
 

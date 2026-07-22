@@ -1,9 +1,6 @@
 ---
-title: research/ — research workbench
-description: Landing — working area for researches; one subfolder per topic, results promoted to top-level knowledge folders
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # research/

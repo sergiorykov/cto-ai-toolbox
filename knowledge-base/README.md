@@ -1,16 +1,13 @@
 ---
-title: knowledge-base/ — all final artifacts
-description: Landing — the single home of all final artifacts, curated source lists, AI practices and tools docs
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # knowledge-base/
 
 **The single home of all final artifacts of the repo** (CTO decision, 2026-07-22; renamed from `sources/` the same day): curated source lists, practice packages, tools docs. Researches run in the [workbench](../research/README.md) and get promoted here on completion. What the source lists are for and how any CTO can use them: [knowledge-base-overview.md](knowledge-base-overview.md); origin spec: [plan](../docs/plans/2026-07-22-source-lists-research.md).
 
-**Docs are not individually approved yet** — useful context until the CTO fills `approved_by`/`approved_when` per the [trust model](../CLAUDE.md).
+**Docs are not individually approved yet** — useful context while the `requires_approve` marker is present, per the [trust model](../CLAUDE.md).
 
 ## Source lists
 

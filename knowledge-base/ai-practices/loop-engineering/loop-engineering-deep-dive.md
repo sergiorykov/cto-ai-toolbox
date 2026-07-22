@@ -1,9 +1,6 @@
 ---
-title: Loop engineering deep dive (articles, preprints, videos)
-description: Annotated collection of primary sources, overviews, scientific preprints, videos, and criticism on loop engineering
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Deep Dive: Articles, Preprints, Videos

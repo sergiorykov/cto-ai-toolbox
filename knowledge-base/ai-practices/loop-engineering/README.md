@@ -1,9 +1,6 @@
 ---
-title: loop-engineering — practice package
-description: "Landing — loop engineering package: definition, history, deep dive, adoption case"
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # loop-engineering
@@ -26,7 +23,7 @@ The three figures it started with: **Peter Steinberger** (OpenClaw; "you should 
 | [loop-engineering-case-monorepo-adoption.md](loop-engineering-case-monorepo-adoption.md) | How-to: adoption plan for a fullstack monorepo (Node+PG+Docker), feature loop with Playwright |
 | [ru/](ru/) | Russian versions, incl. the doc on Russian-language authors and materials |
 
-**Docs are not individually approved yet** — context until the CTO fills `approved_by`/`approved_when` per the [trust model](../../../CLAUDE.md).
+**Docs are not individually approved yet** — context while the `requires_approve` marker is present, per the [trust model](../../../CLAUDE.md).
 
 ## References
 

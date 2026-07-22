@@ -1,9 +1,6 @@
 ---
-title: Loop engineering — общий разрез, смысл и тренд
-description: Что такое loop engineering, анатомия петли по Osmani, куда ведёт тренд и главные риски
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Общий разрез: смысл и тренд

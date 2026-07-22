@@ -1,10 +1,11 @@
 ---
-title: Продукт, discovery и delivery — русскоязычные источники
-description: Русскоязычные источники по продуктовому менеджменту, discovery, продуктовой аналитике и связке продукта с delivery
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
+
+# Продукт, discovery и delivery — русскоязычные источники
+
+Русскоязычные источники по продуктовому менеджменту, discovery, продуктовой аналитике и связке продукта с delivery
 
 Русскоязычный компаньон к [en: em-dm-discovery-delivery.md](../em-dm-discovery-delivery.md). Фокус — бизнес-сторона роли: продуктовое мышление, discovery, аналитика и то, как продукт стыкуется с delivery в разработке.
 

@@ -1,9 +1,6 @@
 ---
-title: Plan — source-lists research
-description: Spec and execution plan for the first research — curated source lists (en base + ru enrichment)
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Source-lists research — spec & plan
@@ -52,7 +49,7 @@ approved_when:
 
 ### Task 5: CTO approval gate
 
-- [ ] CTO reviews each doc; fills `approved_by` / `approved_when` on accepted ones
+- [ ] CTO reviews each doc; removes the `requires_approve` marker on accepted ones
 - [ ] Rejected/parked docs stay as flagged unapproved context
 
 ### Task 6: Promotion to knowledge base

@@ -1,16 +1,15 @@
 ---
-title: Agent spec — validator
-description: Verification agent that checks facts, links and claims and prepares docs for CTO approval
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # validator
 
+Verification agent that checks facts, links and claims and prepares docs for CTO approval
+
 ## Mission
 
-Make the [trust model](../CLAUDE.md) work: before a doc is offered for approval, verify that what it states is true, sourced, and formatted per conventions — so the CTO's `approved_by` means something.
+Make the [trust model](../CLAUDE.md) work: before a doc is offered for approval, verify that what it states is true, sourced, and formatted per conventions — so removing the `requires_approve` marker means something.
 
 ## When to plug in
 
@@ -26,7 +25,7 @@ Make the [trust model](../CLAUDE.md) work: before a doc is offered for approval,
 
 1. Claim audit: extract load-bearing claims; check each against its source; flag claims with no source.
 2. Link audit: every link resolves and actually says what the text implies (spot-check depth scaled to doc criticality).
-3. Convention audit: frontmatter present, naming, cross-links in text + References section, README landings updated ([conventions](../personal/repo-conventions.md)).
+3. Convention audit: `# H1` title + description paragraph, `requires_approve` marker on new/changed docs, naming, cross-links in text + References section, README landings updated ([conventions](../personal/repo-conventions.md)).
 4. Consistency audit: contradictions with approved docs are blockers; contradictions with unapproved docs are notes.
 
 ## Outputs

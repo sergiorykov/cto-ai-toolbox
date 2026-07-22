@@ -1,9 +1,6 @@
 ---
-title: Loop engineering — глубокий разрез (статьи, препринты, видео)
-description: Аннотированная подборка первоисточников, обзоров, научных препринтов, видео и критики по loop engineering
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Глубокий разрез: статьи, препринты, видео

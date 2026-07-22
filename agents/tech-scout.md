@@ -1,12 +1,11 @@
 ---
-title: Agent spec — tech-scout
-description: Fast-immersion agent for technologies and trends; maintains radar discipline for future planning
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # tech-scout
+
+Fast-immersion agent for technologies and trends; maintains radar discipline for future planning
 
 ## Mission
 

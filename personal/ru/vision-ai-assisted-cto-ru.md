@@ -1,9 +1,6 @@
 ---
-title: Vision of AI-assisted CTO (RU, оригинал)
-description: Дословные тезисы CTO из постановки 2026-07-22 — источник истины; en-версия является переводом
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Vision of AI-assisted CTO — оригинальные тезисы

@@ -1,9 +1,6 @@
 ---
-title: Contributing
-description: Human entry point — repo map, trust model, working discipline and conventions
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Contributing
@@ -22,12 +19,12 @@ This repo is maintained AI-first: the operational source of truth for every rule
 
 ## Trust model
 
-Every doc (except the root README, which is a clean public landing) starts with frontmatter: `title`, `description`, `last_updated`, and — most importantly — `approved_by` / `approved_when`.
+Docs have no permanent frontmatter — the title is the `# H1`, the description is the paragraph under it. A doc that is new or changed carries a technical marker at the top (`requires_approve: true` + `last_updated`); the CTO deletes the marker on approval.
 
-- Approved (fields filled) → the doc is ground truth.
-- Not approved → useful context only; always flagged as such when relied upon.
-- **Any edit to an approved doc clears its approval** — get the changed files re-approved.
-- The number of unapproved docs must not grow; better — only shrink.
+- Marker absent → the doc is approved ground truth.
+- Marker present → useful context only; always flagged as such when relied upon.
+- **Any edit to an approved doc re-adds the marker** — get the changed files re-approved; the marker-deleting commit is the approval record.
+- The number of marked docs must not grow; better — only shrink.
 
 ## How work happens
 

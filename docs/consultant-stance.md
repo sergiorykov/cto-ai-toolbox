@@ -1,9 +1,6 @@
 ---
-title: Consultant stance — reference minds and analysis toolkit
-description: Proposed roster of 10 top AI practitioners and the extended systems-analysis toolkit for the partner-consultant role
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Consultant stance

@@ -1,9 +1,6 @@
 ---
-title: Предыстория loop engineering — имена, статьи, репозитории
-description: Хронология появления термина «loop engineering», ключевые люди, первоисточники и репозитории
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # Предыстория: имена, статьи, репозитории

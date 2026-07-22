@@ -1,12 +1,11 @@
 ---
-title: Agent spec — systems-mapper
-description: Systems-thinking agent that models constraints, feedback loops and leverage points behind a request
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
 
 # systems-mapper
+
+Systems-thinking agent that models constraints, feedback loops and leverage points behind a request
 
 ## Mission
 

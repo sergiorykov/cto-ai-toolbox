@@ -1,10 +1,11 @@
 ---
-title: Engineering Principles & Handbooks of Large Companies
-description: Curated, verified public engineering principles, culture docs, and handbooks from Google, Amazon, Netflix, Spotify, GitLab, Basecamp, Stripe, Shopify, Microsoft, Meta and others, plus aggregators of engineering blogs and postmortems.
+requires_approve: true
 last_updated: 2026-07-22
-approved_by:
-approved_when:
 ---
+
+# Engineering Principles & Handbooks of Large Companies
+
+Curated, verified public engineering principles, culture docs, and handbooks from Google, Amazon, Netflix, Spotify, GitLab, Basecamp, Stripe, Shopify, Microsoft, Meta and others, plus aggregators of engineering blogs and postmortems.
 
 ## Google
 
