@@ -27,7 +27,7 @@ last_updated: 2026-07-22
 
 > для этого инструменты и ИИ как персональная команда с разными скилами (составь отдельно список агентов и к ним спеки, которые будут подключаться под запрос - и валидировать, челенджить, проводить ресерчи.
 
-Спеки агентов (по запросу выше) — предложены в [agents/](../../agents/README.md) (не одобрено — ждет апрува).
+Персональная команда агентов (по запросу выше) реализована как сабагенты Claude Code в [.claude/agents/](../../.claude/agents/); таблица команды — в [CONTRIBUTING.md](../../CONTRIBUTING.md).
 
 ## Доверие только одобренным докам
 
@@ -39,4 +39,4 @@ last_updated: 2026-07-22
 - [vision-ai-assisted-cto-ru.md](vision-ai-assisted-cto-ru.md) — вижен
 - [repo-conventions-ru.md](repo-conventions-ru.md) — конвенции репозитория
 - [consultant-stance.md](../consultant-stance.md) — список умов и инструментов консультанта
-- [agents/README.md](../../agents/README.md) — предложенные спеки агентов (не одобрено)
+- [CONTRIBUTING.md](../../CONTRIBUTING.md) — персональная команда агентов (`.claude/agents/`)

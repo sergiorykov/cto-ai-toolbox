@@ -25,7 +25,7 @@ The list of 10 top AI minds and the extended systems toolkit (requested above) a
 
 > For this: tools, and AI as a personal team with different skills (compose a separate list of agents with specs for them, to be plugged in per request — to validate, challenge, and conduct researches).
 
-Agent specs (requested above) are proposed in [agents/](../agents/README.md) (not approved — pending review).
+The personal AI team (requested above) is implemented as Claude Code subagents in [.claude/agents/](../.claude/agents/); the team table lives in [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 ## Trust only approved docs
 
@@ -36,4 +36,4 @@ Agent specs (requested above) are proposed in [agents/](../agents/README.md) (no
 - [vision-ai-assisted-cto.md](vision-ai-assisted-cto.md) — the vision
 - [repo-conventions.md](repo-conventions.md) — repo conventions
 - [consultant-stance.md](consultant-stance.md) — reference minds & toolkit
-- [agents/README.md](../agents/README.md) — proposed agent specs (not approved)
+- [CONTRIBUTING.md](../CONTRIBUTING.md) — the personal AI team (`.claude/agents/`)

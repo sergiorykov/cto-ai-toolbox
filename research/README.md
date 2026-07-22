@@ -24,4 +24,4 @@ Completed and promoted:
 
 - [CLAUDE.md](../CLAUDE.md) — research lifecycle and doc conventions
 - [docs/plans/](../docs/plans/) — specs for all researches
-- [agents/research-analyst.md](../agents/research-analyst.md) — how researches are run
+- [research-analyst agent](../.claude/agents/research-analyst.md) — how researches are run

@@ -21,8 +21,8 @@ Produced by the source-lists research ([spec](../docs/plans/2026-07-22-source-li
 
 ## Proposed follow-up cases (per the vision — pending CTO decision)
 
-- `knowledge-base-case-quarterly-radar.md` — a quarterly ritual: run [tech-scout](../agents/tech-scout.md) over [tech-radars.md](tech-radars.md) + [technologies.md](technologies.md), produce a personal radar delta for IT-strategy planning.
-- `knowledge-base-case-competency-matrix.md` — build the company's grades/competency matrices from [management.md](management.md) frameworks (progression.fyi, Dropbox) adapted by [org-designer](../agents/org-designer.md).
+- `knowledge-base-case-quarterly-radar.md` — a quarterly ritual: run [tech-scout](../.claude/agents/tech-scout.md) over [tech-radars.md](tech-radars.md) + [technologies.md](technologies.md), produce a personal radar delta for IT-strategy planning.
+- `knowledge-base-case-competency-matrix.md` — build the company's grades/competency matrices from [management.md](management.md) frameworks (progression.fyi, Dropbox) adapted by [org-designer](../.claude/agents/org-designer.md).
 - `knowledge-base-case-deep-research-seeding.md` — a worked example: seeding the "Unity AI / game-dev shift" research from these lists.
 - A maintenance loop: re-verify links and refresh entries on a cadence (candidate for a scheduled agent).
 

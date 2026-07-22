@@ -1,3 +1,8 @@
+---
+requires_approve: true
+last_updated: 2026-07-23
+---
+
 # cto-ai-toolbox — operating guide
 
 Living practices and tools that amplify a CTO. The repo is a growing knowledge base of AI-era CTO skills: effective approaches, tools and researches that close blind spots and physical limits ("can't know everything").
@@ -53,7 +58,7 @@ last_updated: YYYY-MM-DD
 | [knowledge-base/](knowledge-base/) | **The single home of all final artifacts**: curated source lists, practice groups (e.g. [knowledge-base/ai-practices/](knowledge-base/ai-practices/)), tools docs ([knowledge-base/tools/](knowledge-base/tools/)). |
 | [research/](research/) | Working area for researches — one sonorous subfolder per topic. |
 | [docs/](docs/) | Planning home: specs for all researches and tasks ([docs/plans/](docs/plans/)). |
-| [agents/](agents/) | Specs of the personal AI team plugged in per request; installed as real Claude Code subagents in `.claude/agents/`. |
+| `.claude/agents/` | Working definitions of the personal AI team (Claude Code subagents), plugged in per request; the human-facing team table lives in [CONTRIBUTING.md](CONTRIBUTING.md). |
 
 Research lifecycle: a research runs in `research/<topic>/`; its goal is to **enrich the knowledge base**. On completion the results always move under [knowledge-base/](knowledge-base/) — into a fitting group folder, or a new group folder is created there (e.g. `knowledge-base/ai-practices/loop-engineering/`). `research/` is a workbench, not the final shelf.
 
@@ -83,4 +88,4 @@ Research doc structure: `xxxx-overview.md` (accessibly explains the meaning of t
 - [principles/collaboration-principles.md](principles/collaboration-principles.md) — assistant contract
 - [principles/repo-conventions.md](principles/repo-conventions.md) — conventions in the CTO's own words
 - [principles/consultant-stance.md](principles/consultant-stance.md) — reference minds and analysis toolkit
-- [agents/README.md](agents/README.md) — personal AI team
+- [CONTRIBUTING.md](CONTRIBUTING.md) — human entry point incl. the personal AI team table

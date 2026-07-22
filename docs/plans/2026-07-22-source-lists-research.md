@@ -44,7 +44,7 @@ last_updated: 2026-07-22
 
 ### Task 4: Validation pass
 
-- [ ] Run [validator](../../agents/validator.md) checklist over all files: claim audit, link audit, convention audit
+- [ ] Run [validator](../../.claude/agents/validator.md) checklist over all files: claim audit, link audit, convention audit
 - [ ] Fix defects found
 
 ### Task 5: CTO approval gate
@@ -61,5 +61,5 @@ last_updated: 2026-07-22
 
 - [principles/research-backlog.md](../../principles/research-backlog.md) — the original task statement
 - [knowledge-base/](../../knowledge-base/) — final home of the results
-- [agents/validator.md](../../agents/validator.md) — validation checklist owner
+- [validator agent](../../.claude/agents/validator.md) — validation checklist owner
 - [CLAUDE.md](../../CLAUDE.md) — lifecycle and conventions
