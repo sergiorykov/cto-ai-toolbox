@@ -8,7 +8,6 @@ approved_when:
 
 # Overview: Meaning and Trend
 
-> Faithful translation of the Russian original [loop-engineering-overview-ru.md](loop-engineering-overview-ru.md)
 
 ## The meaning in two paragraphs
 

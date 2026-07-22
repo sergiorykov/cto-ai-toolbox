@@ -8,13 +8,15 @@ approved_when:
 
 # Ресерч-бэклог — оригинальные формулировки
 
-Формулировки дословно из постановки задачи (2026-07-22). Не обогащать синтезом. Английский перевод: [research-backlog.md](research-backlog.md). Спеки и статусы задач — в [docs/plans/](../docs/plans/).
+[en: research-backlog.md](../research-backlog.md)
+
+Формулировки дословно из постановки задачи (2026-07-22). Не обогащать синтезом. Спеки и статусы задач — в [docs/plans/](../../docs/plans/).
 
 ## Первый ресерч: списки источников
 
 > дополнительно составь отдельной папкой - список по технологиям, по управлению, по agile/scrum, по EM/DM discovery-delivery, по cto (awesome списки), техрадары, принципы разработки крупных компаний.
 
-Выполнено; результаты перенесены в [knowledge-base/](../knowledge-base/) (решения CTO, 2026-07-22; папка изначально называлась sources, переименована в knowledge-base в тот же день).
+Выполнено; результаты перенесены в [knowledge-base/](../../knowledge-base/) (решения CTO, 2026-07-22; папка изначально называлась sources, переименована в knowledge-base в тот же день).
 
 ## Примеры тяжелых ресерч-задач
 
@@ -30,12 +32,12 @@ approved_when:
 
 > для loop-engineering необходимо придумать корневую папку, где такие вопросы будут группироваться, например, AI-principles или что-то в этом духе.
 
-Выполнено: создана группа [knowledge-base/ai-practices/](../knowledge-base/ai-practices/) (решения CTO, 2026-07-22: сначала корневая ai-practices, затем уточнение — все конечные артефакты в одной базе, переименованной в knowledge-base), ресерч перенесен в [knowledge-base/ai-practices/loop-engineering/](../knowledge-base/ai-practices/loop-engineering/).
+Выполнено: создана группа [knowledge-base/ai-practices/](../../knowledge-base/ai-practices/) (решения CTO, 2026-07-22: сначала корневая ai-practices, затем уточнение — все конечные артефакты в одной базе, переименованной в knowledge-base), ресерч перенесен в [knowledge-base/ai-practices/loop-engineering/](../../knowledge-base/ai-practices/loop-engineering/).
 
 ## Дополнительные ресурсы
 
-- [research-backlog.md](research-backlog.md) — английский перевод (базовый док)
+- [research-backlog.md](../research-backlog.md) — английский перевод (базовый док)
 - [vision-ai-assisted-cto-ru.md](vision-ai-assisted-cto-ru.md) — вижен, из которого исходят задачи
-- [docs/plans/](../docs/plans/) — спеки и планы по задачам
-- [knowledge-base/](../knowledge-base/) — результаты первого ресерча
-- [knowledge-base/ai-practices/loop-engineering/](../knowledge-base/ai-practices/loop-engineering/) — перенесенный ресерч loop-engineering
+- [docs/plans/](../../docs/plans/) — спеки и планы по задачам
+- [knowledge-base/](../../knowledge-base/) — результаты первого ресерча
+- [knowledge-base/ai-practices/loop-engineering/](../../knowledge-base/ai-practices/loop-engineering/) — перенесенный ресерч loop-engineering

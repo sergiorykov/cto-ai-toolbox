@@ -12,7 +12,7 @@ Living practices and tools that amplify a CTO. The repo is a growing knowledge b
 
 Key emphasis: **strictly practical approach to CTO work** — every doc must be actionable so that not only the author but *any* CTO can take it and implement it.
 
-Source of truth for intent: [Vision of AI-assisted CTO](personal/vision-ai-assisted-cto.md) (EN) with the verbatim Russian original in [vision-ai-assisted-cto-ru.md](personal/vision-ai-assisted-cto-ru.md). Read it before any non-trivial task.
+Source of truth for intent: [Vision of AI-assisted CTO](personal/vision-ai-assisted-cto.md). Read it before any non-trivial task.
 
 ## Trust model (critical)
 
@@ -42,9 +42,10 @@ approved_when:
 ## Language policy
 
 - English is the primary language of docs and communication.
-- Some docs additionally exist in Russian: same English filename + `-ru` suffix, always placed next to the base doc (`main-doc.md` + `main-doc-ru.md`). Filenames are always English.
+- Some docs additionally exist in Russian: same English filename + `-ru` suffix. For every folder that has `-ru` docs, they live in its `ru/` subfolder, names kept as-is (`xxxx/main-doc.md` + `xxxx/ru/main-doc-ru.md`). Filenames are always English.
+- **EN docs never mention localizations.** Each `-ru` doc carries a link to its EN base next to the title (`[en](../main-doc.md)`). A folder landing may list its `ru/` subfolder as a single row — never per-doc RU links.
 - Research: base docs are English-only with English sources; `-ru` docs enrich them — Russian text, Russian-language sources only.
-- In [personal/](personal/) the `-ru` files are the CTO's verbatim originals (source of truth); EN files are faithful translations.
+- In [personal/](personal/) the `ru/` files are the CTO's verbatim originals (source of truth); EN files are faithful translations.
 
 ## Naming, formatting, linking
 
@@ -88,8 +89,7 @@ Research doc structure: `xxxx-overview.md` (accessibly explains the meaning of t
 
 ## References
 
-- [personal/vision-ai-assisted-cto.md](personal/vision-ai-assisted-cto.md) — vision (EN)
-- [personal/vision-ai-assisted-cto-ru.md](personal/vision-ai-assisted-cto-ru.md) — vision (RU original)
+- [personal/vision-ai-assisted-cto.md](personal/vision-ai-assisted-cto.md) — vision
 - [personal/collaboration-principles.md](personal/collaboration-principles.md) — assistant contract
 - [personal/repo-conventions.md](personal/repo-conventions.md) — conventions in the CTO's own words
 - [docs/consultant-stance.md](docs/consultant-stance.md) — reference minds and analysis toolkit

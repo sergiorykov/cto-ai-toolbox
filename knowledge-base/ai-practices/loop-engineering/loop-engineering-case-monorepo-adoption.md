@@ -8,7 +8,6 @@ approved_when:
 
 # How-to: a loop engineering adoption plan for a fullstack monorepo
 
-> Faithful translation of the Russian original [loop-engineering-case-monorepo-adoption-ru.md](loop-engineering-case-monorepo-adoption-ru.md)
 
 A practical plan for moving to loops for a specific setup:
 

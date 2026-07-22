@@ -29,7 +29,7 @@ Consulting/engineering-thought anchors alongside them: [Martin Fowler](https://m
 
 ## Analysis toolkit
 
-Base set fixed by the CTO ([collaboration-principles-ru.md](../personal/collaboration-principles-ru.md)): **Goldratt's Theory of Constraints**, **TRIZ**, systems thinking of **Zhilin** and **[Donella Meadows](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)**.
+Base set fixed by the CTO ([collaboration-principles.md](../personal/collaboration-principles.md)): **Goldratt's Theory of Constraints**, **TRIZ**, systems thinking of **Zhilin** and **[Donella Meadows](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)**.
 
 Proposed additions (the requested "several more systems tools"):
 

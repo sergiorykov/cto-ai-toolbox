@@ -37,7 +37,7 @@ Every doc (except the root README, which is a clean public landing) starts with 
 
 ## Conventions
 
-- English is the primary language; Russian companions sit next to base docs with the `-ru` suffix (filenames always English).
+- English is the primary language; Russian companions keep the `-ru` suffix and live in a `ru/` subfolder of the folder holding their base docs (filenames always English).
 - Files and folders: `lowercase-with-hyphens.md`. Diagrams: mermaid preferred.
 - Mentions in text become links; all links are duplicated in a `References` section at the end of the page.
 - Every folder has a `README.md` landing: meaning + a cross-link table. Keep landings updated.

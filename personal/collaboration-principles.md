@@ -8,7 +8,7 @@ approved_when:
 
 # Collaboration principles
 
-Faithful translation of the Russian original — [collaboration-principles-ru.md](collaboration-principles-ru.md) is the source of truth. No synthesized additions.
+The CTO's verbatim theses on how the AI partner must work. No synthesized additions.
 
 ## Partner-consultant stance
 
@@ -36,7 +36,6 @@ Agent specs (requested above) are proposed in [agents/](../agents/README.md) (no
 
 ## References
 
-- [collaboration-principles-ru.md](collaboration-principles-ru.md) — verbatim Russian original (source of truth)
 - [vision-ai-assisted-cto.md](vision-ai-assisted-cto.md) — the vision
 - [repo-conventions.md](repo-conventions.md) — repo conventions
 - [consultant-stance.md](../docs/consultant-stance.md) — proposed minds & toolkit (not approved)

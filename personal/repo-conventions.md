@@ -8,13 +8,21 @@ approved_when:
 
 # Repo conventions
 
-Faithful translation of the Russian original — [repo-conventions-ru.md](repo-conventions-ru.md) is the source of truth. No synthesized additions.
+The CTO's verbatim convention theses. No synthesized additions.
 
 ## Languages
 
 > The primary language of communication and docs is EN. In particular cases some docs will be in RU, and RU docs always sit next to the base docs: `main-doc.md` / `main-doc-ru.md` (the `-ru` suffix).
 
 > EN separately (it is always the basis of research), and RU additionally (enriching the base docs). Base docs — EN only. RU docs — all sources in Russian, the doc's text in Russian. RU doc filenames — in English.
+
+Refinement (statement of 2026-07-22, later):
+
+> For ru let's fix the rule — there is a folder XXXX with a bunch of files in it, including -ru.md. For every such folder we make a ru subfolder inside it and move all such docs there (names as-is, together with the -ru suffix).
+
+Refinement (statement of 2026-07-23):
+
+> In en files do not mention localizations. In a localization you may add [en](base-file.md) links next to the title — or propose where better.
 
 ## Naming and diagrams
 
@@ -77,6 +85,5 @@ Statement of 2026-07-22 (later the same day):
 
 ## References
 
-- [repo-conventions-ru.md](repo-conventions-ru.md) — verbatim Russian original (source of truth)
 - [collaboration-principles.md](collaboration-principles.md) — collaboration principles
 - [CLAUDE.md](../CLAUDE.md) — operating guide implementing these conventions

@@ -8,7 +8,9 @@ approved_when:
 
 # Vision of AI-assisted CTO — оригинальные тезисы
 
-Тезисы дословно из постановки задачи (2026-07-22). Не обогащать синтезом. Английский перевод: [vision-ai-assisted-cto.md](vision-ai-assisted-cto.md).
+[en: vision-ai-assisted-cto.md](../vision-ai-assisted-cto.md)
+
+Тезисы дословно из постановки задачи (2026-07-22). Не обогащать синтезом.
 
 ## Цель репозитория
 
@@ -34,6 +36,6 @@ approved_when:
 
 ## Дополнительные ресурсы
 
-- [vision-ai-assisted-cto.md](vision-ai-assisted-cto.md) — английский перевод (базовый док)
+- [vision-ai-assisted-cto.md](../vision-ai-assisted-cto.md) — английский перевод (базовый док)
 - [collaboration-principles-ru.md](collaboration-principles-ru.md) — как должен работать AI-партнер
 - [research-backlog-ru.md](research-backlog-ru.md) — ресерч-задачи из постановки

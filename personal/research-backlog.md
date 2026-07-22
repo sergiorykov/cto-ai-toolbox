@@ -8,7 +8,7 @@ approved_when:
 
 # Research backlog
 
-Faithful translation of the Russian original — [research-backlog-ru.md](research-backlog-ru.md) is the source of truth. No synthesized additions. Specs and task statuses live in [docs/plans/](../docs/plans/).
+The CTO's verbatim research task statements. No synthesized additions. Specs and task statuses live in [docs/plans/](../docs/plans/).
 
 ## First research: source lists
 
@@ -34,7 +34,6 @@ Done: the group [knowledge-base/ai-practices/](../knowledge-base/ai-practices/) 
 
 ## References
 
-- [research-backlog-ru.md](research-backlog-ru.md) — verbatim Russian original (source of truth)
 - [vision-ai-assisted-cto.md](vision-ai-assisted-cto.md) — the vision these tasks flow from
 - [docs/plans/](../docs/plans/) — specs and plans for the tasks
 - [knowledge-base/](../knowledge-base/) — results of the first research

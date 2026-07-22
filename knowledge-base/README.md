@@ -14,15 +14,16 @@ approved_when:
 
 ## Source lists
 
-| Category | EN base | RU enrichment |
-|---|---|---|
-| Technologies (incl. game dev / Unity) | [technologies.md](technologies.md) | [technologies-ru.md](technologies-ru.md) |
-| Tech radars | [tech-radars.md](tech-radars.md) | [tech-radars-ru.md](tech-radars-ru.md) |
-| Engineering principles of large companies | [engineering-principles.md](engineering-principles.md) | — (no strong RU corpus found) |
-| CTO role & staff-plus IC | [cto.md](cto.md) | [cto-ru.md](cto-ru.md) |
-| Engineering management & org design | [management.md](management.md) | [management-ru.md](management-ru.md) |
-| Agile / Scrum (canon + critique) | [agile-scrum.md](agile-scrum.md) | [agile-scrum-ru.md](agile-scrum-ru.md) |
-| EM/DM discovery & delivery | [em-dm-discovery-delivery.md](em-dm-discovery-delivery.md) | [em-dm-discovery-delivery-ru.md](em-dm-discovery-delivery-ru.md) |
+| Category | Doc |
+|---|---|
+| Technologies (incl. game dev / Unity) | [technologies.md](technologies.md) |
+| Tech radars | [tech-radars.md](tech-radars.md) |
+| Engineering principles of large companies | [engineering-principles.md](engineering-principles.md) |
+| CTO role & staff-plus IC | [cto.md](cto.md) |
+| Engineering management & org design | [management.md](management.md) |
+| Agile / Scrum (canon + critique) | [agile-scrum.md](agile-scrum.md) |
+| EM/DM discovery & delivery | [em-dm-discovery-delivery.md](em-dm-discovery-delivery.md) |
+| Russian-language enrichment | [ru/](ru/) |
 
 All entries are annotated (what it is + why valuable for a CTO) and link-verified; the few unverifiable links are marked `(unverified)` inline.
 

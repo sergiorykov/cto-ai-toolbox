@@ -8,7 +8,7 @@ approved_when:
 
 # How-to: план внедрения loop engineering в fullstack-монорепо
 
-> English version: [loop-engineering-case-monorepo-adoption.md](loop-engineering-case-monorepo-adoption.md)
+> [en: loop-engineering-case-monorepo-adoption.md](../loop-engineering-case-monorepo-adoption.md)
 
 Практический план перехода на петли для конкретного сетапа:
 

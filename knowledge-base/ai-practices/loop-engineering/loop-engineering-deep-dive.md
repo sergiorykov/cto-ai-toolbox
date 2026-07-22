@@ -8,7 +8,6 @@ approved_when:
 
 # Deep Dive: Articles, Preprints, Videos
 
-> Faithful translation of the Russian original [loop-engineering-deep-dive-ru.md](loop-engineering-deep-dive-ru.md)
 
 Split into: (A) originals/primary sources, (B) overview and analytical pieces, (C) scientific preprints,
 (D) videos, (E) criticism and debates. Marked where something is a primary source and where it is a retelling.

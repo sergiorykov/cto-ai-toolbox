@@ -8,7 +8,7 @@ approved_when:
 
 # Vision of AI-assisted CTO
 
-Faithful translation of the Russian original — [vision-ai-assisted-cto-ru.md](vision-ai-assisted-cto-ru.md) is the source of truth. No synthesized additions.
+The CTO's verbatim theses, captured from the task statements. No synthesized additions.
 
 ## Purpose of the repo
 
@@ -34,6 +34,5 @@ Faithful translation of the Russian original — [vision-ai-assisted-cto-ru.md](
 
 ## References
 
-- [vision-ai-assisted-cto-ru.md](vision-ai-assisted-cto-ru.md) — verbatim Russian original (source of truth)
 - [collaboration-principles.md](collaboration-principles.md) — how the AI partner must work
 - [research-backlog.md](research-backlog.md) — research tasks stated by the CTO

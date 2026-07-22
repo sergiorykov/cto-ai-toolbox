@@ -6,7 +6,7 @@ approved_by:
 approved_when:
 ---
 
-Русскоязычный компаньон к `em-dm-discovery-delivery.md`. Фокус — бизнес-сторона роли: продуктовое мышление, discovery, аналитика и то, как продукт стыкуется с delivery в разработке.
+Русскоязычный компаньон к [en: em-dm-discovery-delivery.md](../em-dm-discovery-delivery.md). Фокус — бизнес-сторона роли: продуктовое мышление, discovery, аналитика и то, как продукт стыкуется с delivery в разработке.
 
 ## Продукт и discovery
 

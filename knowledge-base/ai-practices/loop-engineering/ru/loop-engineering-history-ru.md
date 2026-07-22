@@ -8,7 +8,7 @@ approved_when:
 
 # Предыстория: имена, статьи, репозитории
 
-> English version: [loop-engineering-history.md](loop-engineering-history.md)
+> [en: loop-engineering-history.md](../loop-engineering-history.md)
 
 ## Как появился термин (хронология)
 

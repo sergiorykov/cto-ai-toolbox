@@ -8,7 +8,7 @@ approved_when:
 
 # Глубокий разрез: статьи, препринты, видео
 
-> Английская версия: [loop-engineering-deep-dive.md](loop-engineering-deep-dive.md)
+> [en: loop-engineering-deep-dive.md](../loop-engineering-deep-dive.md)
 
 Разбито на: (A) оригиналы/первоисточники, (B) обзорные и аналитические, (C) научные препринты,
 (D) видео, (E) критика и споры. Помечено, где первоисточник, где пересказ.

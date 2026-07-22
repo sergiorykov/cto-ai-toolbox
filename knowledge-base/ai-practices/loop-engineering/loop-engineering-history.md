@@ -8,7 +8,6 @@ approved_when:
 
 # Background: Names, Articles, Repositories
 
-> Faithful translation of the Russian original [loop-engineering-history-ru.md](loop-engineering-history-ru.md)
 
 ## How the term emerged (chronology)
 

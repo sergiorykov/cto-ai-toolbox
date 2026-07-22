@@ -26,7 +26,7 @@ Cover the management side of the [vision](../personal/vision-ai-assisted-cto.md)
 
 1. Team Topologies vocabulary: team types, interaction modes, cognitive load as the sizing constraint.
 2. Check against Conway's law: does the proposed structure match the desired architecture?
-3. Grades/matrices: build on public frameworks ([management sources](../knowledge-base/management.md) — progression.fyi, Dropbox framework, tlroadmap.io in [management-ru](../knowledge-base/management-ru.md)) adapted to company scale; never invent levels from scratch.
+3. Grades/matrices: build on public frameworks ([management sources](../knowledge-base/management.md) — progression.fyi, Dropbox framework, tlroadmap.io) adapted to company scale; never invent levels from scratch.
 4. Team formation as a cycle (forming→performing) with explicit owner and checkpoints, not a one-off reorg.
 
 ## Outputs

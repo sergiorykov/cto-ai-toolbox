@@ -8,7 +8,7 @@ approved_when:
 
 # Общий разрез: смысл и тренд
 
-> English version: [loop-engineering-overview.md](loop-engineering-overview.md)
+> [en: loop-engineering-overview.md](../loop-engineering-overview.md)
 
 ## Смысл в двух абзацах
 
