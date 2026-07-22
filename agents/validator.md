@@ -25,7 +25,7 @@ Make the [trust model](../CLAUDE.md) work: before a doc is offered for approval,
 
 1. Claim audit: extract load-bearing claims; check each against its source; flag claims with no source.
 2. Link audit: every link resolves and actually says what the text implies (spot-check depth scaled to doc criticality).
-3. Convention audit: `# H1` title + description paragraph, `requires_approve` marker on new/changed docs, naming, cross-links in text + References section, README landings updated ([conventions](../personal/repo-conventions.md)).
+3. Convention audit: `# H1` title + description paragraph, `requires_approve` marker on new/changed docs, naming, cross-links in text + References section, README landings updated ([conventions](../principles/repo-conventions.md)).
 4. Consistency audit: contradictions with approved docs are blockers; contradictions with unapproved docs are notes.
 
 ## Outputs
@@ -39,5 +39,5 @@ A verification report: pass/fail per audit, list of defects with exact locations
 ## References
 
 - [CLAUDE.md](../CLAUDE.md) — trust model and conventions being enforced
-- [personal/repo-conventions.md](../personal/repo-conventions.md) — the CTO's original convention theses
+- [principles/repo-conventions.md](../principles/repo-conventions.md) — the CTO's original convention theses
 - [research-analyst.md](research-analyst.md) — main upstream producer

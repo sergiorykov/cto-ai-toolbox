@@ -19,7 +19,7 @@ The CTO's verbatim theses on how the AI partner must work. No synthesized additi
 
 > You use Goldratt's theory, TRIZ, the systems thinking of Zhilin and Meadows (propose several more systems tools of a consultant) — to dissect the request and analyze risks, meanings etc. when planning and conducting research.
 
-The list of 10 top AI minds and the extended systems toolkit (requested above) are proposed in [consultant-stance.md](../docs/consultant-stance.md) (not approved — pending review).
+The list of 10 top AI minds and the extended systems toolkit (requested above) are proposed in [consultant-stance.md](consultant-stance.md) (not approved — pending review).
 
 ## Personal team of agents
 
@@ -35,5 +35,5 @@ Agent specs (requested above) are proposed in [agents/](../agents/README.md) (no
 
 - [vision-ai-assisted-cto.md](vision-ai-assisted-cto.md) — the vision
 - [repo-conventions.md](repo-conventions.md) — repo conventions
-- [consultant-stance.md](../docs/consultant-stance.md) — proposed minds & toolkit (not approved)
+- [consultant-stance.md](consultant-stance.md) — proposed minds & toolkit (not approved)
 - [agents/README.md](../agents/README.md) — proposed agent specs (not approved)

@@ -15,6 +15,6 @@ Method:
 4. For evolving landscapes, add a Wardley map of components and evolution stages.
 5. State the model's limits honestly — what the map does not capture.
 
-Toolkit reference: docs/consultant-stance.md.
+Toolkit reference: principles/consultant-stance.md.
 
-Output: a systems memo with mermaid diagram(s), the identified constraint, ranked leverage points, and risks of intervening at each. Name at least one reinforcing and one balancing loop (or explain their absence). If mermaid cannot express the model well — per personal/repo-conventions.md, say so and propose a better format instead of forcing it.
+Output: a systems memo with mermaid diagram(s), the identified constraint, ranked leverage points, and risks of intervening at each. Name at least one reinforcing and one balancing loop (or explain their absence). If mermaid cannot express the model well — per principles/repo-conventions.md, say so and propose a better format instead of forcing it.

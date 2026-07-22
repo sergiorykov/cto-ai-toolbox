@@ -9,7 +9,7 @@ Living practices and tools that amplify a CTO. The repo is a growing knowledge b
 
 Key emphasis: **strictly practical approach to CTO work** — every doc must be actionable so that not only the author but *any* CTO can take it and implement it.
 
-Source of truth for intent: [Vision of AI-assisted CTO](personal/vision-ai-assisted-cto.md). Read it before any non-trivial task.
+Source of truth for intent: [Vision of AI-assisted CTO](principles/vision-ai-assisted-cto.md). Read it before any non-trivial task.
 
 ## Trust model (critical)
 
@@ -40,7 +40,7 @@ last_updated: YYYY-MM-DD
 - Some docs additionally exist in Russian: same English filename + `-ru` suffix. For every folder that has `-ru` docs, they live in its `ru/` subfolder, names kept as-is (`xxxx/main-doc.md` + `xxxx/ru/main-doc-ru.md`). Filenames are always English.
 - **EN docs never mention localizations.** Each `-ru` doc carries a link to its EN base next to the title (`[en](../main-doc.md)`). A folder landing may list its `ru/` subfolder as a single row — never per-doc RU links.
 - Research: base docs are English-only with English sources; `-ru` docs enrich them — Russian text, Russian-language sources only.
-- In [personal/](personal/) the `ru/` files are the CTO's verbatim originals (source of truth); EN files are faithful translations.
+- In [principles/](principles/) the `ru/` files are the CTO's verbatim originals (source of truth); EN files are faithful translations.
 
 ## Naming, formatting, linking
 
@@ -54,7 +54,7 @@ last_updated: YYYY-MM-DD
 
 | Folder | Purpose |
 |---|---|
-| [personal/](personal/) | CTO's own theses (vision, principles, backlog). Verbatim only — never enrich with synthesized content. |
+| [principles/](principles/) | The repo's principles: CTO's verbatim theses (vision, collaboration, conventions, backlog — never enrich with synthesized content) + the consultant stance. |
 | [knowledge-base/](knowledge-base/) | **The single home of all final artifacts**: curated source lists, practice groups (e.g. [knowledge-base/ai-practices/](knowledge-base/ai-practices/)), tools docs ([knowledge-base/tools/](knowledge-base/tools/)). |
 | [research/](research/) | Working area for researches — one sonorous subfolder per topic. |
 | [docs/](docs/) | Planning home: specs for all researches and tasks ([docs/plans/](docs/plans/)). |
@@ -76,16 +76,16 @@ Research doc structure: `xxxx-overview.md` (accessibly explains the meaning of t
 ## Working style (assistant contract)
 
 - Never rush to answer: first analyze the task — its real meaning and how it fits the vision. If the vision needs narrowing or widening — always return the CTO to the basics first.
-- Act as a partner-consultant (McKinsey-grade / Fowler / top AI practitioners — roster in [consultant-stance.md](docs/consultant-stance.md)): challenge meanings. Results must amplify the CTO — personally, in work with leaders, or as an Individual Contributor.
+- Act as a partner-consultant (McKinsey-grade / Fowler / top AI practitioners — roster in [consultant-stance.md](principles/consultant-stance.md)): challenge meanings. Results must amplify the CTO — personally, in work with leaders, or as an Individual Contributor.
 - Spot a blind spot in a request → say why it doesn't fit the vision. Closing blind spots is one of the main tasks.
-- Analysis toolkits: Goldratt's Theory of Constraints, TRIZ, systems thinking (Zhilin, Meadows) plus the extended toolkit in [consultant-stance.md](docs/consultant-stance.md) — use them to dissect requests and analyze risks and meanings when planning and running researches.
+- Analysis toolkits: Goldratt's Theory of Constraints, TRIZ, systems thinking (Zhilin, Meadows) plus the extended toolkit in [consultant-stance.md](principles/consultant-stance.md) — use them to dissect requests and analyze risks and meanings when planning and running researches.
 - Planning discipline: the "Specs and plans — mandatory" section above — brainstorming gate before any non-trivial work; specs in `docs/specs/`, plans in [docs/plans/](docs/plans/).
-- Full collaboration contract: [collaboration-principles.md](personal/collaboration-principles.md).
+- Full collaboration contract: [collaboration-principles.md](principles/collaboration-principles.md).
 
 ## References
 
-- [personal/vision-ai-assisted-cto.md](personal/vision-ai-assisted-cto.md) — vision
-- [personal/collaboration-principles.md](personal/collaboration-principles.md) — assistant contract
-- [personal/repo-conventions.md](personal/repo-conventions.md) — conventions in the CTO's own words
-- [docs/consultant-stance.md](docs/consultant-stance.md) — reference minds and analysis toolkit
+- [principles/vision-ai-assisted-cto.md](principles/vision-ai-assisted-cto.md) — vision
+- [principles/collaboration-principles.md](principles/collaboration-principles.md) — assistant contract
+- [principles/repo-conventions.md](principles/repo-conventions.md) — conventions in the CTO's own words
+- [principles/consultant-stance.md](principles/consultant-stance.md) — reference minds and analysis toolkit
 - [agents/README.md](agents/README.md) — personal AI team

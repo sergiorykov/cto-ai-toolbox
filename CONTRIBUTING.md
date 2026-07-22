@@ -12,9 +12,9 @@ This repo is maintained AI-first: the operational source of truth for every rule
 | Folder | Purpose |
 |---|---|
 | [knowledge-base/](knowledge-base/) | All final artifacts: curated source lists, practice groups ([ai-practices/](knowledge-base/ai-practices/)), tools docs. |
-| [personal/](personal/) | The CTO's own theses (vision, principles, conventions, backlog) — verbatim, never enriched with synthesized content. |
+| [principles/](principles/) | The repo's principles: the CTO's verbatim theses (vision, collaboration, conventions, backlog) + the [consultant stance](principles/consultant-stance.md). |
 | [research/](research/) | Research workbench — one subfolder per topic; results are promoted into knowledge-base/ on completion. |
-| [docs/](docs/) | Planning home: approved designs in `docs/specs/`, execution plans in [docs/plans/](docs/plans/), the [consultant stance](docs/consultant-stance.md). |
+| [docs/](docs/) | Planning home: approved designs in `docs/specs/`, execution plans in [docs/plans/](docs/plans/). |
 | [agents/](agents/) | Specs of the personal AI team; installed as working Claude Code subagents in `.claude/agents/`. |
 
 ## Trust model
@@ -42,6 +42,6 @@ Docs have no permanent frontmatter — the title is the `# H1`, the description 
 ## References
 
 - [CLAUDE.md](CLAUDE.md) — full operating guide (source of truth)
-- [personal/repo-conventions.md](personal/repo-conventions.md) — conventions in the CTO's own words
-- [personal/vision-ai-assisted-cto.md](personal/vision-ai-assisted-cto.md) — why this repo exists
+- [principles/repo-conventions.md](principles/repo-conventions.md) — conventions in the CTO's own words
+- [principles/vision-ai-assisted-cto.md](principles/vision-ai-assisted-cto.md) — why this repo exists
 - [docs/README.md](docs/README.md) — planning home

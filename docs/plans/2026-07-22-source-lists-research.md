@@ -5,7 +5,7 @@ last_updated: 2026-07-22
 
 # Source-lists research — spec & plan
 
-**Goal:** a separate folder with curated source lists — technologies, management, agile/scrum, EM/DM discovery-delivery, CTO (awesome lists), tech radars, engineering principles of large companies — as stated verbatim in the [research backlog](../../personal/research-backlog.md).
+**Goal:** a separate folder with curated source lists — technologies, management, agile/scrum, EM/DM discovery-delivery, CTO (awesome lists), tech radars, engineering principles of large companies — as stated verbatim in the [research backlog](../../principles/research-backlog.md).
 
 **Approach:** parallel research agents, one per category cluster; English base docs with English sources only; `-ru` companions with Russian sources where strong ones exist; every entry annotated (what it is + why valuable for the CTO) and link-verified.
 
@@ -59,7 +59,7 @@ last_updated: 2026-07-22
 
 ## References
 
-- [personal/research-backlog.md](../../personal/research-backlog.md) — the original task statement
+- [principles/research-backlog.md](../../principles/research-backlog.md) — the original task statement
 - [knowledge-base/](../../knowledge-base/) — final home of the results
 - [agents/validator.md](../../agents/validator.md) — validation checklist owner
 - [CLAUDE.md](../../CLAUDE.md) — lifecycle and conventions

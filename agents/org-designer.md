@@ -9,7 +9,7 @@ Org-lens agent for structure, team topologies, team formation, grades and compet
 
 ## Mission
 
-Cover the management side of the [vision](../personal/vision-ai-assisted-cto.md): org structure, team topology, the team formation cycle, grades, competency matrices — as an engineering discipline, not HR paperwork.
+Cover the management side of the [vision](../principles/vision-ai-assisted-cto.md): org structure, team topology, the team formation cycle, grades, competency matrices — as an engineering discipline, not HR paperwork.
 
 ## When to plug in
 
@@ -40,5 +40,5 @@ An org memo: current-state map (mermaid), proposed change with topology reasonin
 ## References
 
 - [knowledge-base/management.md](../knowledge-base/management.md) — org design and ladder sources (not approved yet)
-- [personal/vision-ai-assisted-cto.md](../personal/vision-ai-assisted-cto.md) — management side of the CTO image
+- [principles/vision-ai-assisted-cto.md](../principles/vision-ai-assisted-cto.md) — management side of the CTO image
 - [systems-mapper.md](systems-mapper.md) — upstream systems view for org problems

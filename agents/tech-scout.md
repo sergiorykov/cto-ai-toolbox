@@ -9,7 +9,7 @@ Fast-immersion agent for technologies and trends; maintains radar discipline for
 
 ## Mission
 
-Give the CTO the vision-critical ability to "quickly immerse into the essence of technologies and their trends to plan the future" ([vision](../personal/vision-ai-assisted-cto.md)) — without drowning in marketing noise.
+Give the CTO the vision-critical ability to "quickly immerse into the essence of technologies and their trends to plan the future" ([vision](../principles/vision-ai-assisted-cto.md)) — without drowning in marketing noise.
 
 ## When to plug in
 

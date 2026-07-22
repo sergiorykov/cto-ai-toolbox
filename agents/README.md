@@ -5,7 +5,7 @@ last_updated: 2026-07-22
 
 # agents/
 
-The CTO's personal AI team: agents with different skills, plugged in per request — to **validate**, **challenge**, and **conduct researches**. This implements the vision thesis "AI as a personal team with different skills" from the [Vision of AI-assisted CTO](../personal/vision-ai-assisted-cto.md); the request itself is recorded in [collaboration-principles.md](../personal/collaboration-principles.md).
+The CTO's personal AI team: agents with different skills, plugged in per request — to **validate**, **challenge**, and **conduct researches**. This implements the vision thesis "AI as a personal team with different skills" from the [Vision of AI-assisted CTO](../principles/vision-ai-assisted-cto.md); the request itself is recorded in [collaboration-principles.md](../principles/collaboration-principles.md).
 
 Status: **proposed specs, not approved** — treat as context while the `requires_approve` marker is present.
 
@@ -28,7 +28,7 @@ flowchart LR
     approve --> kb[(Knowledge base:\ntop-level folders)]
 ```
 
-Not every request needs the full chain: pick the minimal set, but a heavy research (see [research-backlog.md](../personal/research-backlog.md)) normally passes challenge and validation before being offered for approval.
+Not every request needs the full chain: pick the minimal set, but a heavy research (see [research-backlog.md](../principles/research-backlog.md)) normally passes challenge and validation before being offered for approval.
 
 ## The team
 
@@ -45,7 +45,7 @@ Not every request needs the full chain: pick the minimal set, but a heavy resear
 
 ## References
 
-- [personal/vision-ai-assisted-cto.md](../personal/vision-ai-assisted-cto.md) — why the team exists
-- [personal/collaboration-principles.md](../personal/collaboration-principles.md) — the CTO's request for agent specs
-- [docs/consultant-stance.md](../docs/consultant-stance.md) — shared toolkit and reference minds
+- [principles/vision-ai-assisted-cto.md](../principles/vision-ai-assisted-cto.md) — why the team exists
+- [principles/collaboration-principles.md](../principles/collaboration-principles.md) — the CTO's request for agent specs
+- [principles/consultant-stance.md](../principles/consultant-stance.md) — shared toolkit and reference minds
 - [CLAUDE.md](../CLAUDE.md) — doc conventions every agent output must follow

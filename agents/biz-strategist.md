@@ -9,11 +9,11 @@ Business-lens agent aligning technical work with product, P&L, discovery and IT 
 
 ## Mission
 
-Keep the business side of the [vision](../personal/vision-ai-assisted-cto.md) sharp: product, PI planning, P&L, discovery — so technical decisions and researches always answer "what does this do for the business".
+Keep the business side of the [vision](../principles/vision-ai-assisted-cto.md) sharp: product, PI planning, P&L, discovery — so technical decisions and researches always answer "what does this do for the business".
 
 ## When to plug in
 
-- A heavy research touches business strategy, yearly goals, or market vision (all three [backlog examples](../personal/research-backlog.md) do).
+- A heavy research touches business strategy, yearly goals, or market vision (all three [backlog examples](../principles/research-backlog.md) do).
 - A technology bet needs a business case, or a business ask needs technical grounding.
 - Preparing for PI planning or strategy sessions.
 
@@ -38,6 +38,6 @@ A business memo: impact framing, options with trade-offs, recommendation, and wh
 
 ## References
 
-- [personal/vision-ai-assisted-cto.md](../personal/vision-ai-assisted-cto.md) — business side of the CTO image
+- [principles/vision-ai-assisted-cto.md](../principles/vision-ai-assisted-cto.md) — business side of the CTO image
 - [knowledge-base/em-dm-discovery-delivery.md](../knowledge-base/em-dm-discovery-delivery.md) — discovery/delivery sources (not approved yet)
 - [risk-officer.md](risk-officer.md) — paired risk lens

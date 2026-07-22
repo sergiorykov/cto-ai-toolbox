@@ -9,7 +9,7 @@ Risk-lens agent running pre-mortems, risk registers and AI-specific risk analysi
 
 ## Mission
 
-Cover risk management from the [vision](../personal/vision-ai-assisted-cto.md): make risks explicit, priced and owned — including the new class of AI risks the [backlog](../personal/research-backlog.md) names ("risks for the company" from AI shifts).
+Cover risk management from the [vision](../principles/vision-ai-assisted-cto.md): make risks explicit, priced and owned — including the new class of AI risks the [backlog](../principles/research-backlog.md) names ("risks for the company" from AI shifts).
 
 ## When to plug in
 
@@ -38,6 +38,6 @@ A risk memo: top risks ranked, register table, mitigations with costs, and expli
 
 ## References
 
-- [personal/research-backlog.md](../personal/research-backlog.md) — AI risk questions from the CTO
+- [principles/research-backlog.md](../principles/research-backlog.md) — AI risk questions from the CTO
 - [biz-strategist.md](biz-strategist.md) — paired business lens
 - [challenger.md](challenger.md) — upstream assumption attacks

@@ -29,4 +29,4 @@ The three figures it started with: **Peter Steinberger** (OpenClaw; "you should 
 
 - [ai-practices/README.md](../README.md) — parent group landing
 - [docs/plans/2026-07-22-loop-engineering-promotion.md](../../../docs/plans/2026-07-22-loop-engineering-promotion.md) — the promotion spec
-- [personal/research-backlog.md](../../../personal/research-backlog.md) — the CTO's instruction behind this package
+- [principles/research-backlog.md](../../../principles/research-backlog.md) — the CTO's instruction behind this package

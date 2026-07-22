@@ -5,7 +5,7 @@ last_updated: 2026-07-22
 
 # Loop-engineering promotion — spec & plan
 
-**Goal:** fulfil the CTO's instruction: "for loop-engineering a top-level folder must be invented where such questions will be grouped — for example, ai-principles or something in that spirit" ([repo-conventions](../../personal/repo-conventions.md)).
+**Goal:** fulfil the CTO's instruction: "for loop-engineering a top-level folder must be invented where such questions will be grouped — for example, ai-principles or something in that spirit" ([repo-conventions](../../principles/repo-conventions.md)).
 
 **State before migration:** `research/loop-engineering/` was a completed ru-language research package (5 numbered files + README) that predated the repo conventions: transliterated numbered filenames, Russian base text, no frontmatter. Now migrated to [knowledge-base/ai-practices/loop-engineering/](../../knowledge-base/ai-practices/loop-engineering/).
 
@@ -39,6 +39,6 @@ last_updated: 2026-07-22
 
 ## References
 
-- [personal/repo-conventions.md](../../personal/repo-conventions.md) — the lifecycle instruction (verbatim)
+- [principles/repo-conventions.md](../../principles/repo-conventions.md) — the lifecycle instruction (verbatim)
 - [knowledge-base/ai-practices/loop-engineering/](../../knowledge-base/ai-practices/loop-engineering/) — the promoted package
 - [CLAUDE.md](../../CLAUDE.md) — target conventions

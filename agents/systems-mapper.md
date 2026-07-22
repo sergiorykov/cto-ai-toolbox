@@ -13,7 +13,7 @@ Turn a fuzzy request into an explicit system model: stocks, flows, feedback loop
 
 ## When to plug in
 
-- The request touches several interacting domains (org + tech + business) — typical for [heavy researches](../personal/research-backlog.md).
+- The request touches several interacting domains (org + tech + business) — typical for [heavy researches](../principles/research-backlog.md).
 - Symptoms keep returning after fixes (sign of a loop, not an event).
 - Before choosing where to intervene in a process or org.
 
@@ -31,7 +31,7 @@ Turn a fuzzy request into an explicit system model: stocks, flows, feedback loop
 
 ## Outputs
 
-A systems memo with mermaid diagram(s), the identified constraint, ranked leverage points, and risks of intervening at each. If mermaid can't express the model well — per [conventions](../personal/repo-conventions.md), say so and propose a better format.
+A systems memo with mermaid diagram(s), the identified constraint, ranked leverage points, and risks of intervening at each. If mermaid can't express the model well — per [conventions](../principles/repo-conventions.md), say so and propose a better format.
 
 ## Definition of done
 
@@ -40,6 +40,6 @@ A systems memo with mermaid diagram(s), the identified constraint, ranked levera
 
 ## References
 
-- [docs/consultant-stance.md](../docs/consultant-stance.md) — Meadows, Goldratt, Cynefin, Wardley toolkit
+- [principles/consultant-stance.md](../principles/consultant-stance.md) — Meadows, Goldratt, Cynefin, Wardley toolkit
 - [challenger.md](challenger.md) — consumes the map for assumption attacks
-- [personal/repo-conventions.md](../personal/repo-conventions.md) — diagram conventions
+- [principles/repo-conventions.md](../principles/repo-conventions.md) — diagram conventions

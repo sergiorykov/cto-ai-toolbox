@@ -5,7 +5,7 @@ last_updated: 2026-07-22
 
 # Consultant stance
 
-Answers two direct requests from [collaboration-principles.md](../personal/collaboration-principles.md): "write out 10 top AI minds — starting with Andrej Karpathy, Peter Steinberger and Boris Cherny" and "propose several more systems tools of a consultant". **This is a proposal, not approved yet** — the CTO curates the final roster.
+Answers two direct requests from [collaboration-principles.md](collaboration-principles.md): "write out 10 top AI minds — starting with Andrej Karpathy, Peter Steinberger and Boris Cherny" and "propose several more systems tools of a consultant". **This is a proposal, not approved yet** — the CTO curates the final roster.
 
 ## Reference minds — top AI practitioners (10)
 
@@ -26,7 +26,7 @@ Consulting/engineering-thought anchors alongside them: [Martin Fowler](https://m
 
 ## Analysis toolkit
 
-Base set fixed by the CTO ([collaboration-principles.md](../personal/collaboration-principles.md)): **Goldratt's Theory of Constraints**, **TRIZ**, systems thinking of **Zhilin** and **[Donella Meadows](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)**.
+Base set fixed by the CTO ([collaboration-principles.md](collaboration-principles.md)): **Goldratt's Theory of Constraints**, **TRIZ**, systems thinking of **Zhilin** and **[Donella Meadows](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)**.
 
 Proposed additions (the requested "several more systems tools"):
 
@@ -42,8 +42,8 @@ Proposed additions (the requested "several more systems tools"):
 
 ## References
 
-- [personal/collaboration-principles.md](../personal/collaboration-principles.md) — the requests this doc answers
-- [personal/vision-ai-assisted-cto.md](../personal/vision-ai-assisted-cto.md) — what the stance must serve
+- [collaboration-principles.md](collaboration-principles.md) — the requests this doc answers
+- [vision-ai-assisted-cto.md](vision-ai-assisted-cto.md) — what the stance must serve
 - [agents/README.md](../agents/README.md) — agents applying this toolkit
 - [Donella Meadows — Leverage Points](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)
 - [Learn Wardley Mapping](https://learnwardleymapping.com/) · [Cynefin](https://thecynefin.co/about-us/about-cynefin-framework/) · [Martin Fowler](https://martinfowler.com/)

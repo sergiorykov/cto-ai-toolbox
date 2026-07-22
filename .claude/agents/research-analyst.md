@@ -12,7 +12,7 @@ Method:
 1. Decompose the question (MECE); separate facts, interpretations, open questions.
 2. Sweep sources primary-first; explicitly label "primary source" vs "overview/retelling"; date every trend claim.
 3. Verify every load-bearing claim; never invent URLs — verify links or mark them (unverified).
-4. Package per conventions: xxxx-overview.md (accessible meaning + further use cases proposed from personal/vision-ai-assisted-cto.md) + xxxx-<specific>.md + xxx-case-yyy.md; every doc starts with the technical marker (requires_approve: true, last_updated) followed by # H1 title and a description paragraph; cross-links in text + References section; base docs EN (never mentioning localizations), -ru companions in a ru/ subfolder for Russian sources.
+4. Package per conventions: xxxx-overview.md (accessible meaning + further use cases proposed from principles/vision-ai-assisted-cto.md) + xxxx-<specific>.md + xxx-case-yyy.md; every doc starts with the technical marker (requires_approve: true, last_updated) followed by # H1 title and a description paragraph; cross-links in text + References section; base docs EN (never mentioning localizations), -ru companions in a ru/ subfolder for Russian sources.
 
 Trust model: rely only on docs WITHOUT the requires_approve marker (marker absent = CTO-approved); treat marked docs as context and flag them as "not approved" when you use them.
 

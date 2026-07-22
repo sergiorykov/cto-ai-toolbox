@@ -2,7 +2,7 @@
 
 **AI agents/skills for the day-to-day job of a CTO.**
 
-Living practices and tools that amplify a CTO — collected so that any CTO can take a doc and put it to work, not just read it. The premise: a modern CTO is a hands-on individual contributor first, and AI — tools plus a personal team of AI agents — is what lets one person cut through the cognitive complexity of any task: technology, product, org design, risks, IT strategy. The full philosophy: [Vision of AI-assisted CTO](personal/vision-ai-assisted-cto.md).
+Living practices and tools that amplify a CTO — collected so that any CTO can take a doc and put it to work, not just read it. The premise: a modern CTO is a hands-on individual contributor first, and AI — tools plus a personal team of AI agents — is what lets one person cut through the cognitive complexity of any task: technology, product, org design, risks, IT strategy. The full philosophy: [Vision of AI-assisted CTO](principles/vision-ai-assisted-cto.md).
 
 ## Knowledge base
 

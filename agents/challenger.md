@@ -9,7 +9,7 @@ Adversarial agent attacking assumptions, meanings and vision-fit of requests, pl
 
 ## Mission
 
-Challenge meanings, not wording: find the hidden assumption, the blind spot, the vision mismatch — before the CTO invests time. Implements the core theses of [collaboration-principles.md](../personal/collaboration-principles.md).
+Challenge meanings, not wording: find the hidden assumption, the blind spot, the vision mismatch — before the CTO invests time. Implements the core theses of [collaboration-principles.md](../principles/collaboration-principles.md).
 
 ## When to plug in
 
@@ -19,7 +19,7 @@ Challenge meanings, not wording: find the hidden assumption, the blind spot, the
 
 ## Inputs
 
-- The request/spec/research result plus the [vision](../personal/vision-ai-assisted-cto.md) as the reference frame.
+- The request/spec/research result plus the [vision](../principles/vision-ai-assisted-cto.md) as the reference frame.
 
 ## Method
 
@@ -40,6 +40,6 @@ A short challenge memo: top 3–5 challenges ranked by impact, each with "what t
 
 ## References
 
-- [personal/collaboration-principles.md](../personal/collaboration-principles.md) — the contract this agent enforces
-- [personal/vision-ai-assisted-cto.md](../personal/vision-ai-assisted-cto.md) — the reference frame
-- [docs/consultant-stance.md](../docs/consultant-stance.md) — frameworks toolkit
+- [principles/collaboration-principles.md](../principles/collaboration-principles.md) — the contract this agent enforces
+- [principles/vision-ai-assisted-cto.md](../principles/vision-ai-assisted-cto.md) — the reference frame
+- [principles/consultant-stance.md](../principles/consultant-stance.md) — frameworks toolkit
