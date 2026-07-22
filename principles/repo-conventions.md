@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-23
----
-
 # Repo conventions
 
 The conventions the repo lives by: languages, text style, naming, research lifecycle, approval.

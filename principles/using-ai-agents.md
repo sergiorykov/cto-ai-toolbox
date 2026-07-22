@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-23
----
-
 # Using AI agents
 
 The personal AI team: agents with different skills, plugged in per request — to validate, challenge and conduct researches. Working definitions live in [.claude/agents/](../.claude/agents/); Claude Code picks the right agent up automatically, or invoke one explicitly ("use the challenger agent on this").

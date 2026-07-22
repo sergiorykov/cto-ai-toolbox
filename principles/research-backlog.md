@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-23
----
-
 # Research backlog
 
 The CTO's verbatim research task statements. No synthesized additions. Specs and task statuses live in [docs/plans/](../docs/plans/).

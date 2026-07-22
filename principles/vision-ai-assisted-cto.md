@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-22
----
-
 # Vision of AI-assisted CTO
 
 The CTO's verbatim theses, captured from the task statements. No synthesized additions.

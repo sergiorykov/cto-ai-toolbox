@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-23
----
-
 # Consultant stance
 
 Reference minds and the analysis toolkit behind the partner-consultant role (per [collaboration-principles.md](collaboration-principles.md)): who to emulate, and which instruments to apply when dissecting requests, risks and meanings.

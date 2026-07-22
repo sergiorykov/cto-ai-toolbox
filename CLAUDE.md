@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-23
----
-
 # cto-ai-toolbox — operating guide
 
 The assistant contract for this repo: living practices and tools that amplify a CTO. Everything produced here must be strictly practical — any CTO should be able to take a doc and implement it.

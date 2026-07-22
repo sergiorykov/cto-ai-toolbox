@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-23
----
-
 # Collaboration principles
 
 The CTO's verbatim theses on how the AI partner must work. No synthesized additions.

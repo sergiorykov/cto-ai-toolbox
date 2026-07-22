@@ -1,11 +1,6 @@
----
-requires_approve: true
-last_updated: 2026-07-23
----
-
 # principles/
 
-The principles the repo runs on: the CTO's own theses, captured verbatim, plus the working principles derived from them (the consultant stance). The verbatim theses docs are **never enriched with synthesized content** — only the CTO's original words; the Russian originals in [ru/](ru/) are the source of truth.
+The principles the repo runs on: the CTO's own theses, captured verbatim, plus the working principles derived from them (the consultant stance). The verbatim theses docs are **never enriched with synthesized content** — only the CTO's original words.
 
 ## Docs
 
@@ -17,7 +12,6 @@ The principles the repo runs on: the CTO's own theses, captured verbatim, plus t
 | [research-backlog.md](research-backlog.md) | Research tasks stated by the CTO: first research + heavy research examples |
 | [consultant-stance.md](consultant-stance.md) | Reference minds (10 AI practitioners) and the extended analysis toolkit |
 | [using-ai-agents.md](using-ai-agents.md) | The personal AI team: who the agents are and how to plug them in |
-| [ru/](ru/) | Verbatim Russian originals of the theses (source of truth) |
 
 ## References
 

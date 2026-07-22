@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-22
----
-
 # Contributing
 
 This repo is maintained AI-first: the operational source of truth for every rule is [CLAUDE.md](CLAUDE.md) — both humans and AI assistants follow it. This page is the short human entry point; when in doubt, CLAUDE.md wins.
