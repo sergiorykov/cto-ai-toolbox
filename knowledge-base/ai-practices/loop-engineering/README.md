@@ -1,6 +1,6 @@
 ---
 requires_approve: true
-last_updated: 2026-07-22
+last_updated: 2026-07-23
 ---
 
 # loop-engineering
@@ -22,8 +22,6 @@ The three figures it started with: **Peter Steinberger** (OpenClaw; "you should 
 | [loop-engineering-deep-dive.md](loop-engineering-deep-dive.md) | Original articles + overviews + arXiv preprints + videos |
 | [loop-engineering-case-monorepo-adoption.md](loop-engineering-case-monorepo-adoption.md) | How-to: adoption plan for a fullstack monorepo (Node+PG+Docker), feature loop with Playwright |
 | [ru/](ru/) | Russian versions, incl. the doc on Russian-language authors and materials |
-
-**Docs are not individually approved yet** — context while the `requires_approve` marker is present, per the [trust model](../../../CLAUDE.md).
 
 ## References
 

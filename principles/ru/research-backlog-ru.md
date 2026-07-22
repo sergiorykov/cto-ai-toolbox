@@ -1,19 +1,19 @@
 ---
 requires_approve: true
-last_updated: 2026-07-22
+last_updated: 2026-07-23
 ---
 
 # Ресерч-бэклог — оригинальные формулировки
 
 [en: research-backlog.md](../research-backlog.md)
 
-Формулировки дословно из постановки задачи (2026-07-22). Не обогащать синтезом. Спеки и статусы задач — в [docs/plans/](../../docs/plans/).
+Формулировки дословно из постановок CTO. Не обогащать синтезом. Спеки и статусы задач — в [docs/plans/](../../docs/plans/).
 
 ## Первый ресерч: списки источников
 
 > дополнительно составь отдельной папкой - список по технологиям, по управлению, по agile/scrum, по EM/DM discovery-delivery, по cto (awesome списки), техрадары, принципы разработки крупных компаний.
 
-Выполнено; результаты перенесены в [knowledge-base/](../../knowledge-base/) (решения CTO, 2026-07-22; папка изначально называлась sources, переименована в knowledge-base в тот же день).
+Выполнено; результаты — в [knowledge-base/](../../knowledge-base/).
 
 ## Примеры тяжелых ресерч-задач
 
@@ -29,7 +29,7 @@ last_updated: 2026-07-22
 
 > для loop-engineering необходимо придумать корневую папку, где такие вопросы будут группироваться, например, AI-principles или что-то в этом духе.
 
-Выполнено: создана группа [knowledge-base/ai-practices/](../../knowledge-base/ai-practices/) (решения CTO, 2026-07-22: сначала корневая ai-practices, затем уточнение — все конечные артефакты в одной базе, переименованной в knowledge-base), ресерч перенесен в [knowledge-base/ai-practices/loop-engineering/](../../knowledge-base/ai-practices/loop-engineering/).
+Выполнено: ресерч — в [knowledge-base/ai-practices/loop-engineering/](../../knowledge-base/ai-practices/loop-engineering/).
 
 ## Дополнительные ресурсы
 

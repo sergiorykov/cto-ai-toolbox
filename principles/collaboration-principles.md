@@ -11,7 +11,7 @@ The CTO's verbatim theses on how the AI partner must work. No synthesized additi
 
 > When running research — you work as a partner, from the position of a McKinsey-level consultant, or Fowler, or the top minds in AI (write out 10 — starting with Andrej Karpathy, Peter Steinberger and Boris Cherny) — you challenge meanings, understanding that the results must amplify the CTO's work — either personally, or in work with leaders, or as an Individual Contributor.
 
-The requested roster of reference minds is fixed in the approved [consultant-stance.md](consultant-stance.md).
+The requested roster of reference minds is fixed in [consultant-stance.md](consultant-stance.md).
 
 ## Analysis before answering
 
@@ -21,7 +21,7 @@ The requested roster of reference minds is fixed in the approved [consultant-sta
 
 > You use Goldratt's theory, TRIZ, the systems thinking of Zhilin and Meadows (propose several more systems tools of a consultant) — to dissect the request and analyze risks, meanings etc. when planning and conducting research.
 
-The requested extended systems toolkit is fixed in the approved [consultant-stance.md](consultant-stance.md).
+The requested extended systems toolkit is fixed in [consultant-stance.md](consultant-stance.md).
 
 ## Strengthen answers with primary sources
 

@@ -1,11 +1,11 @@
 ---
 requires_approve: true
-last_updated: 2026-07-22
+last_updated: 2026-07-23
 ---
 
 # knowledge-base/ai-practices/
 
-Group of final artifacts on AI-era engineering practices — questions like loop engineering, prompt/context engineering, agent workflows. Lives under [knowledge-base/](../README.md), which holds all final artifacts of the repo (CTO decision, 2026-07-22). New researches of this nature get promoted here from the [research workbench](../../research/README.md) as their own subfolders.
+Group of final artifacts on AI-era engineering practices — questions like loop engineering, prompt/context engineering, agent workflows. New researches of this nature get promoted here from the [research workbench](../../research/README.md) as their own subfolders.
 
 ## Practices
 

@@ -32,27 +32,11 @@ Agents with different skills, plugged in per request — to validate, challenge 
 | [org-designer](.claude/agents/org-designer.md) | Org structure, team topologies, grades, competency matrices |
 | [risk-officer](.claude/agents/risk-officer.md) | Risk lens: pre-mortems, risk registers, AI risks |
 
-## Trust model
-
-Docs have no permanent frontmatter — the title is the `# H1`, the description is the paragraph under it. A doc that is new or changed carries a technical marker at the top (`requires_approve: true` + `last_updated`); the CTO deletes the marker on approval.
-
-- Marker absent → the doc is approved ground truth.
-- Marker present → useful context only; always flagged as such when relied upon.
-- **Any edit to an approved doc re-adds the marker** — get the changed files re-approved; the marker-deleting commit is the approval record.
-- The number of marked docs must not grow; better — only shrink.
-
 ## How work happens
 
-- Any non-trivial work (new research, knowledge package, structural change) starts with a brainstorming session → an approved design in `docs/specs/` (committed before execution) → a plan in [docs/plans/](docs/plans/) (committed before execution) → execution → the spec updated if reality deviated.
-- Work in **atomic quanta** — no code bombs / doc bombs; every quantum should land a small improvement of the knowledge base.
-- Trivial edits (typos, links, 1–2 docs without change of meaning) skip the spec — but say so explicitly.
-
-## Conventions
-
-- English is the primary language; Russian companions keep the `-ru` suffix and live in a `ru/` subfolder of the folder holding their base docs (filenames always English).
-- Files and folders: `lowercase-with-hyphens.md`. Diagrams: mermaid preferred.
-- Mentions in text become links; all links are duplicated in a `References` section at the end of the page.
-- Every folder has a `README.md` landing: meaning + a cross-link table. Keep landings updated.
+- Trust: a new or changed doc carries the technical `requires_approve` marker; the CTO deletes it on approval. No marker → approved ground truth; marker → useful context. Duties and details: [CLAUDE.md](CLAUDE.md).
+- Non-trivial work goes brainstorming → spec in `docs/specs/` → plan in [docs/plans/](docs/plans/) → execution, always in atomic quanta.
+- All format and structure rules — languages, text style, naming, linking, landings, research lifecycle, planning — live in [principles/repo-conventions.md](principles/repo-conventions.md) (single source).
 
 ## References
 

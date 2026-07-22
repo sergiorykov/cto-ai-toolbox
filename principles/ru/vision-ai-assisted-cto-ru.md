@@ -1,13 +1,13 @@
 ---
 requires_approve: true
-last_updated: 2026-07-22
+last_updated: 2026-07-23
 ---
 
 # Vision of AI-assisted CTO — оригинальные тезисы
 
 [en: vision-ai-assisted-cto.md](../vision-ai-assisted-cto.md)
 
-Тезисы дословно из постановки задачи (2026-07-22). Не обогащать синтезом.
+Тезисы дословно из постановок CTO. Не обогащать синтезом.
 
 ## Цель репозитория
 

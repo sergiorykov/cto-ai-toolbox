@@ -5,7 +5,7 @@ last_updated: 2026-07-23
 
 # principles/
 
-The principles the repo runs on: the CTO's own theses, captured verbatim from task statements, plus the core working principles derived from them (the consultant stance). The verbatim theses docs are **never enriched with synthesized content** — only the CTO's original words (rules: [CLAUDE.md](../CLAUDE.md)).
+The principles the repo runs on: the CTO's own theses, captured verbatim, plus the working principles derived from them (the consultant stance). The verbatim theses docs are **never enriched with synthesized content** — only the CTO's original words; the Russian originals in [ru/](ru/) are the source of truth.
 
 ## Docs
 

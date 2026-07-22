@@ -1,6 +1,6 @@
 ---
 requires_approve: true
-last_updated: 2026-07-22
+last_updated: 2026-07-23
 ---
 
 # Knowledge base — overview
@@ -11,7 +11,7 @@ What the curated source lists are for, how any CTO can use them, and proposed fo
 
 A curated map of entry points into every side of the CTO craft from the [vision](../principles/vision-ai-assisted-cto.md): technologies, management/org, agile/scrum, discovery-delivery, the CTO role itself, tech radars, and engineering principles of large companies. Each doc holds 10–30 high-signal, link-verified sources with a one-line answer to "why this is valuable for a CTO" — a practical index, not a link dump.
 
-Produced by the source-lists research ([spec](../docs/plans/2026-07-22-source-lists-research.md)) and promoted here on 2026-07-22 by the CTO's decision.
+Produced by the source-lists research ([spec](../docs/plans/2026-07-22-source-lists-research.md)).
 
 ## How to use it (any CTO)
 

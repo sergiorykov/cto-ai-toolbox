@@ -17,6 +17,8 @@ The conventions the repo lives by: languages, text style, naming, research lifec
 ## Text style
 
 - Minimum descriptiveness: living, laconic text, understandable on its own.
+- A human will not read walls of AI text: trust appears when readers see themselves in the text — answers to their questions, with examples. The practical orientation and the approval gate exist for this.
+- Say everything in exactly one place: prefer cross-links over repetition — better several smaller docs than duplicated content.
 - No change history inside documents — git holds it. When adding or changing content, integrate it into the doc without explanatory insertions.
 
 ## Naming and diagrams

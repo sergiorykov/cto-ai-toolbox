@@ -1,6 +1,6 @@
 ---
 requires_approve: true
-last_updated: 2026-07-22
+last_updated: 2026-07-23
 ---
 
 # Research backlog
@@ -11,7 +11,7 @@ The CTO's verbatim research task statements. No synthesized additions. Specs and
 
 > Additionally, compose as a separate folder — a list on technologies, on management, on agile/scrum, on EM/DM discovery-delivery, on CTO (awesome lists), tech radars, development principles of large companies.
 
-Done; results promoted to [knowledge-base/](../knowledge-base/) (CTO decisions, 2026-07-22; the folder was first named sources, renamed to knowledge-base the same day).
+Done; the results live in [knowledge-base/](../knowledge-base/).
 
 ## Examples of heavy research tasks
 
@@ -27,7 +27,7 @@ Done; results promoted to [knowledge-base/](../knowledge-base/) (CTO decisions, 
 
 > For loop-engineering a top-level folder must be invented where such questions will be grouped — for example, `ai-principles` or something in that spirit.
 
-Done: the group [knowledge-base/ai-practices/](../knowledge-base/ai-practices/) was created (CTO decisions, 2026-07-22: first a top-level ai-practices, then refined — all final artifacts in one base, renamed to knowledge-base) and the research moved to [knowledge-base/ai-practices/loop-engineering/](../knowledge-base/ai-practices/loop-engineering/).
+Done: the research lives in [knowledge-base/ai-practices/loop-engineering/](../knowledge-base/ai-practices/loop-engineering/).
 
 ## References
 
