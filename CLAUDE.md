@@ -7,7 +7,7 @@ last_updated: 2026-07-23
 
 The assistant contract for this repo: living practices and tools that amplify a CTO. Everything produced here must be strictly practical — any CTO should be able to take a doc and implement it.
 
-Before any non-trivial task read the [Vision of AI-assisted CTO](principles/vision-ai-assisted-cto.md) — the source of truth for intent. All format and structure rules live in [repo-conventions](principles/repo-conventions.md) — the single source; follow them in every artifact. The repo map and the AI team table: [CONTRIBUTING.md](CONTRIBUTING.md).
+Before any non-trivial task read the [Vision of AI-assisted CTO](principles/vision-ai-assisted-cto.md) — the source of truth for intent. All format and structure rules live in [repo-conventions](principles/repo-conventions.md) — the single source; follow them in every artifact. The personal AI team: [using-ai-agents](principles/using-ai-agents.md); the repo map: [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Trust model (critical)
 
@@ -40,4 +40,5 @@ Before any non-trivial task read the [Vision of AI-assisted CTO](principles/visi
 - [principles/repo-conventions.md](principles/repo-conventions.md) — all format and structure rules (single source)
 - [principles/collaboration-principles.md](principles/collaboration-principles.md) — assistant contract
 - [principles/consultant-stance.md](principles/consultant-stance.md) — reference minds and analysis toolkit
-- [CONTRIBUTING.md](CONTRIBUTING.md) — human entry point: repo map and the AI team
+- [principles/using-ai-agents.md](principles/using-ai-agents.md) — the personal AI team
+- [CONTRIBUTING.md](CONTRIBUTING.md) — human entry point: repo map

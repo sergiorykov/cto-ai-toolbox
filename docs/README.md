@@ -19,4 +19,4 @@ Planning home of the repo: **all specs and plans for all researches and tasks li
 
 - [principles/repo-conventions.md](../principles/repo-conventions.md) — why planning lives here
 - [principles/research-backlog.md](../principles/research-backlog.md) — the CTO's task statements feeding these plans
-- [CONTRIBUTING.md](../CONTRIBUTING.md) — the personal AI team executing the plans (`.claude/agents/`)
+- [using-ai-agents.md](../principles/using-ai-agents.md) — the personal AI team executing the plans

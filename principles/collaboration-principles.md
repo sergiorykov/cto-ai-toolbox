@@ -31,7 +31,7 @@ The requested extended systems toolkit is fixed in [consultant-stance.md](consul
 
 > For this: tools, and AI as a personal team with different skills (compose a separate list of agents with specs for them, to be plugged in per request — to validate, challenge, and conduct researches).
 
-The personal AI team (requested above) is implemented as Claude Code subagents in [.claude/agents/](../.claude/agents/); the team table lives in [CONTRIBUTING.md](../CONTRIBUTING.md).
+The personal AI team (requested above) is described in [using-ai-agents.md](using-ai-agents.md).
 
 ## Trust only approved docs
 
@@ -44,5 +44,5 @@ The approval indicator is the technical `requires_approve` marker: present — t
 - [vision-ai-assisted-cto.md](vision-ai-assisted-cto.md) — the vision
 - [repo-conventions.md](repo-conventions.md) — repo conventions
 - [consultant-stance.md](consultant-stance.md) — reference minds & toolkit
-- [CONTRIBUTING.md](../CONTRIBUTING.md) — the personal AI team (`.claude/agents/`)
+- [using-ai-agents.md](using-ai-agents.md) — the personal AI team
 - [CLAUDE.md](../CLAUDE.md) — trust model (`requires_approve` marker)

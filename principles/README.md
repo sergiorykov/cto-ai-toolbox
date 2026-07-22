@@ -16,6 +16,7 @@ The principles the repo runs on: the CTO's own theses, captured verbatim, plus t
 | [repo-conventions.md](repo-conventions.md) | Repo conventions: languages, text style, naming, research lifecycle, approval |
 | [research-backlog.md](research-backlog.md) | Research tasks stated by the CTO: first research + heavy research examples |
 | [consultant-stance.md](consultant-stance.md) | Reference minds (10 AI practitioners) and the extended analysis toolkit |
+| [using-ai-agents.md](using-ai-agents.md) | The personal AI team: who the agents are and how to plug them in |
 | [ru/](ru/) | Verbatim Russian originals of the theses (source of truth) |
 
 ## References

@@ -1,3 +1,8 @@
+---
+requires_approve: true
+last_updated: 2026-07-23
+---
+
 # Consultant stance
 
 Reference minds and the analysis toolkit behind the partner-consultant role (per [collaboration-principles.md](collaboration-principles.md)): who to emulate, and which instruments to apply when dissecting requests, risks and meanings.
@@ -39,6 +44,6 @@ Extended toolkit:
 
 - [collaboration-principles.md](collaboration-principles.md) — the collaboration contract this stance serves
 - [vision-ai-assisted-cto.md](vision-ai-assisted-cto.md) — what the stance must serve
-- [CONTRIBUTING.md](../CONTRIBUTING.md) — the personal AI team (`.claude/agents/`) applying this toolkit
+- [using-ai-agents.md](using-ai-agents.md) — the personal AI team applying this toolkit
 - [Donella Meadows — Leverage Points](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)
 - [Learn Wardley Mapping](https://learnwardleymapping.com/) · [Cynefin](https://thecynefin.co/about-us/about-cynefin-framework/) · [Martin Fowler](https://martinfowler.com/)
