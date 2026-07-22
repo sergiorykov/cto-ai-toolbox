@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-22
----
-
 # Предыстория: имена, статьи, репозитории
 
 > [en: loop-engineering-history.md](../loop-engineering-history.md)

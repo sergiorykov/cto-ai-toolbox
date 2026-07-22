@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-22
----
-
 # Deep Dive: Articles, Preprints, Videos
 
 

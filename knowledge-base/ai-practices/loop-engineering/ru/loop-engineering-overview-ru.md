@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-22
----
-
 # Общий разрез: смысл и тренд
 
 > [en: loop-engineering-overview.md](../loop-engineering-overview.md)

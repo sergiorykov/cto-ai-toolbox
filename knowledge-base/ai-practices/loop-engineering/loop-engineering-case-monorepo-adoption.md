@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-22
----
-
 # How-to: a loop engineering adoption plan for a fullstack monorepo
 
 

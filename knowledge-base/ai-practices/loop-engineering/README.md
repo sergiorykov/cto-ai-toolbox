@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-23
----
-
 # loop-engineering
 
 The practice that emerged in June 2026 as the next step after prompt engineering and context engineering in working with AI agents. One-line definition:

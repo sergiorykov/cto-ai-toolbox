@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-23
----
-
 # docs/
 
 Planning home of the repo: **all specs and plans for all researches and tasks live here**. The flow: brainstorming → design in `specs/` → plan in [plans/](plans/) → execution in [research/](../research/) → promotion into [knowledge-base/](../knowledge-base/). Rules: [repo-conventions](../principles/repo-conventions.md).

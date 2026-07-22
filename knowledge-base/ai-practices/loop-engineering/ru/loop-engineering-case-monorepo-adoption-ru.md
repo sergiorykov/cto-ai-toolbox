@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-22
----
-
 # How-to: план внедрения loop engineering в fullstack-монорепо
 
 > [en: loop-engineering-case-monorepo-adoption.md](../loop-engineering-case-monorepo-adoption.md)

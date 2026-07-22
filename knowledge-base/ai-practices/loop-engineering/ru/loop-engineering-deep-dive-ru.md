@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-22
----
-
 # Глубокий разрез: статьи, препринты, видео
 
 > [en: loop-engineering-deep-dive.md](../loop-engineering-deep-dive.md)
