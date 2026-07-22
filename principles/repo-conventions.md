@@ -1,93 +1,54 @@
 ---
 requires_approve: true
-last_updated: 2026-07-22
+last_updated: 2026-07-23
 ---
 
 # Repo conventions
 
-The CTO's verbatim convention theses. No synthesized additions.
+The conventions the repo lives by: languages, text style, naming, research lifecycle, approval.
 
 ## Languages
 
-> The primary language of communication and docs is EN. In particular cases some docs will be in RU, and RU docs always sit next to the base docs: `main-doc.md` / `main-doc-ru.md` (the `-ru` suffix).
+- English is the primary language of docs and communication.
+- Some docs also exist in Russian: text and sources in Russian, filename in English with the `-ru` suffix. Every folder with such docs keeps them in its `ru/` subfolder (`xxxx/main-doc.md` + `xxxx/ru/main-doc-ru.md`).
+- EN docs never mention localizations; each ru doc links its EN base next to the title.
+- In research the base is EN-only with English sources; ru docs enrich it with Russian-language sources.
 
-> EN separately (it is always the basis of research), and RU additionally (enriching the base docs). Base docs — EN only. RU docs — all sources in Russian, the doc's text in Russian. RU doc filenames — in English.
+## Text style
 
-Refinement (statement of 2026-07-22, later):
-
-> For ru let's fix the rule — there is a folder XXXX with a bunch of files in it, including -ru.md. For every such folder we make a ru subfolder inside it and move all such docs there (names as-is, together with the -ru suffix).
-
-Refinement (statement of 2026-07-23):
-
-> In en files do not mention localizations. In a localization you may add [en](base-file.md) links next to the title — or propose where better.
+- Minimum descriptiveness: living, laconic text, understandable on its own.
+- No change history inside documents — git holds it. When adding or changing content, integrate it into the doc without explanatory insertions.
 
 ## Naming and diagrams
 
-> Naming of all files and folders: lowercase-with-hyphens, in md format. Diagrams preferably in mermaid — if something fits the task better, or features are missing — ask back and propose the optimal option.
+- Files and folders: lowercase-with-hyphens, md format.
+- Diagrams preferably in mermaid; if something fits the task better or features are missing — ask back and propose the optimal option.
 
-## Research doc structure
+## Research structure and lifecycle
 
-> In research always produce docs `xxxx-overview.md`, `xxxx-smth-specific.md`, so that the overview can always accessibly explain the meaning of the tool, approach, etc.; and additionally, in the research, driven by the CTO vision, add which usage variants need to be researched further or would be useful. Format usage cases as `xxx-case-yyy.md`.
-
-## Research lifecycle
-
-> For conducting research use the `research` folder with a sonorous subfolder, like `loop-engineering`; and upon completion — the data always moves into a main folder, or a new top-level one is created. That is, for loop-engineering a top-level folder must be invented where such questions will be grouped — for example, `ai-principles` or something in that spirit. The task of research is to enrich the knowledge base.
-
-Refinement (statement of 2026-07-22, later the same day):
-
-> Let's keep all final artifacts in `sources`. `ai-practices` inside it. And loop — into a separate `loop-engineering` folder with a README.md; and in `ai-practices` also a README.md per the stated rules.
+- A research runs in `research/<topic>/` (a sonorous subfolder). Its task is to enrich the knowledge base: on completion the results move under [knowledge-base/](../knowledge-base/) into a fitting group, or a new group is created.
+- A research always has `xxxx-overview.md` (accessibly explains the meaning; proposes further useful cases per the [vision](vision-ai-assisted-cto.md)), `xxxx-<specific>.md` deep dives and `xxx-case-yyy.md` usage cases.
 
 ## Cross-links and landings
 
-> In every top-level folder use README.md as a landing that gives the meaning and intro for its content, and a table of cross-links to nested folders and docs.
+- Every folder's `README.md` is a landing: the meaning and intro plus a cross-link table of nested folders and docs.
+- Docs cross-link each other and their sources: in-text mentions become links, duplicated at the end in a References/Дополнительные ресурсы section.
+- The root `README.md` is a clean public mini-landing (knowledge-base overview + how to contribute); technical pages live in [CONTRIBUTING.md](../CONTRIBUTING.md).
 
-> All docs contain cross-links between each other and to other sources. In documents, always turn in-text mentions into links, and at the end of the page duplicate them explicitly in a References/Дополнительные ресурсы section.
+## Doc header and approval
 
-Refinement (statement of 2026-07-22, later):
-
-> Remove the approval section from the root readme — it is like a mini-landing. Clean and for humans. Move the technical pages out into CONTRIBUTE.md, and in readme.md keep only the overview of the knowledge-base, with how to contribute at the end. Like a landing page.
-
-## Doc format and trust
-
-> Formatting of all docs: add to the beginning of every doc a section title/description/last_updated and — most importantly — approved_by, approved_when. You may rely only on docs that carry my approval — all other generated docs are context only, about which you always explicitly state that it has not passed approval but contains something useful — for the case when I go too wide into context and start abandoning researches.
-
-## Doc header and marker-based approval
-
-Statement of 2026-07-23:
-
-> In all docs we change the header. Title and description go into the `# title`, with the description as text under it.
-> The `---` section appears ONLY for docs that are new or changed — requiring approval. After approval this section is deleted as technical. In the section: `--- requires_approve true, last_updated ---`.
+- The title is the `# H1`; the description is the paragraph under it.
+- New and changed docs carry the technical marker `requires_approve: true` + `last_updated`; the CTO deletes it on approval; any edit to an approved doc brings it back. Only unmarked docs are ground truth.
 
 ## Planning
 
-> For planning use /docs/ (I believe your planning skill is called superpowers) — and here all the specs for all researches and tasks.
-
-Refinement (statement of 2026-07-22): a dump of the planning rules from another project of the CTO, with the instruction "take the best from it — how planning itself works via superpowers — and update claude.md":
-
-> ## Specs and plans — mandatory
->
-> - Any new functionality, behavior change or non-trivial refactoring starts with the superpowers:brainstorming skill. No code is written until the design is approved.
-> - Save the approved spec to docs/superpowers/specs/YYYY-MM-DD-<topic>-design.md and commit it as a separate commit before implementation starts.
-> - After the spec — superpowers:writing-plans: the plan goes to docs/superpowers/plans/YYYY-MM-DD-<feature>.md, also committed before code.
-> - At the end of the work on a feature, update the spec if the implementation deviated from it: the spec must describe what was actually done.
-> - Exception: trivial edits (typos, config, a bugfix in 1–2 files without behavior change) — no spec needed, but explicitly say the task is going without a spec.
->
-> ## Separation of docs/superpowers/ and .superpowers/
->
-> - docs/superpowers/ — permanent documentation (specs, plans). Always committed to git.
-> - .superpowers/ — ephemeral working state of skills (review diffs and progress.md from subagent-driven-development, brainstorm-server mockups). Never goes into git.
-> - .superpowers/ must be in the root .gitignore. Add this line right at project initialization — do not rely on the nested self-ignores of individual skills.
-> - The contents of .superpowers/ can be deleted after a feature completes; nothing valuable for history lives there.
-
-Adaptation in this repo (see [CLAUDE.md](../CLAUDE.md), section "Specs and plans — mandatory"): docs/specs/ and docs/plans/ are used instead of docs/superpowers/* (the /docs/ canon is set above); design approval = the CTO deleting the requires_approve technical section from the spec.
-
-## Approval, atomicity, knowledge base
-
-Statement of 2026-07-22 (later the same day):
-
-> Add to claude.md that if a file changes, the approval falls off. And you explicitly push the author to get the changed files approved (this commit — allow me to push as-is), but further on always demand atomicity — right now this is RnD of the structure; further on, return the request author (me or a collaborator) to atomicity of work — no code bombs (doc bombs) — and so that the number of docs without approvals does not grow — better, only shrinks. You may propose, from time to time at the start of a new session, to review a few docs. Only force from a human — and you commit as-is (but always try to propose conducting the work so that every quantum leads to a small improvement of the knowledge base). Let's name sources knowledge-base.
+- Planning lives in [docs/](../docs/): specs in `docs/specs/` (brainstorming output; approval = marker removal), plans in `docs/plans/` (writing-plans output) — both committed before execution starts, and the spec updated afterwards if reality deviated.
+- Trivial edits (typos, links, 1–2 docs without change of meaning) skip the spec — said explicitly.
+- Work in atomic quanta, no doc bombs; the number of unapproved docs must shrink; commit-as-is only on explicit human force.
+- `.superpowers/` (ephemeral skill state) never goes into git — it is in the root `.gitignore`.
 
 ## References
 
+- [CLAUDE.md](../CLAUDE.md) — operating guide enforcing these conventions
 - [collaboration-principles.md](collaboration-principles.md) — collaboration principles
-- [CLAUDE.md](../CLAUDE.md) — operating guide implementing these conventions
+- [vision-ai-assisted-cto.md](vision-ai-assisted-cto.md) — the vision

@@ -45,6 +45,7 @@ last_updated: YYYY-MM-DD
 ## Naming, formatting, linking
 
 - Files and folders: lowercase-with-hyphens, markdown format.
+- Text style: minimum descriptiveness — living, laconic text, understandable on its own. No change history inside documents (git holds it); when adding or changing content, integrate it into the doc without explanatory insertions or dated notes.
 - Diagrams: mermaid preferred. If mermaid fits the task poorly or lacks features — stop, ask, and propose the optimal alternative instead of forcing it.
 - Cross-links everywhere: every mention of a doc or external source in the text becomes a link, and all links are duplicated explicitly at the end of the page in a `## References` section (`## Дополнительные ресурсы` in ru docs).
 - Every top-level folder — and every group/package folder under `knowledge-base/` — has a `README.md` landing: the meaning and intro for its content plus a cross-link table of nested folders and docs. Update landings when adding docs.
