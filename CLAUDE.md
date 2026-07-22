@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-22
----
-
 # cto-ai-toolbox — operating guide
 
 Living practices and tools that amplify a CTO. The repo is a growing knowledge base of AI-era CTO skills: effective approaches, tools and researches that close blind spots and physical limits ("can't know everything").
