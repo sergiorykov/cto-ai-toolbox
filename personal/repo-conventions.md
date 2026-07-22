@@ -38,6 +38,10 @@ Refinement (statement of 2026-07-22, later the same day):
 
 > All docs contain cross-links between each other and to other sources. In documents, always turn in-text mentions into links, and at the end of the page duplicate them explicitly in a References/Дополнительные ресурсы section.
 
+Refinement (statement of 2026-07-22, later):
+
+> Remove the approval section from the root readme — it is like a mini-landing. Clean and for humans. Move the technical pages out into CONTRIBUTE.md, and in readme.md keep only the overview of the knowledge-base, with how to contribute at the end. Like a landing page.
+
 ## Doc format and trust
 
 > Formatting of all docs: add to the beginning of every doc a section title/description/last_updated and — most importantly — approved_by, approved_when. You may rely only on docs that carry my approval — all other generated docs are context only, about which you always explicitly state that it has not passed approval but contains something useful — for the case when I go too wide into context and start abandoning researches.

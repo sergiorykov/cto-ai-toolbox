@@ -52,6 +52,7 @@ approved_when:
 - Diagrams: mermaid preferred. If mermaid fits the task poorly or lacks features — stop, ask, and propose the optimal alternative instead of forcing it.
 - Cross-links everywhere: every mention of a doc or external source in the text becomes a link, and all links are duplicated explicitly at the end of the page in a `## References` section (`## Дополнительные ресурсы` in ru docs).
 - Every top-level folder — and every group/package folder under `knowledge-base/` — has a `README.md` landing: the meaning and intro for its content plus a cross-link table of nested folders and docs. Update landings when adding docs.
+- **Root `README.md` is the public mini-landing**: clean, for humans — only the knowledge-base overview and a "Contributing" pointer at the end. No approval/technical sections and (the single exception in the repo) no frontmatter. All technical content lives in [CONTRIBUTING.md](CONTRIBUTING.md), which points back to this file as the source of truth.
 
 ## Repo layout and research lifecycle
 

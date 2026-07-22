@@ -1,32 +1,19 @@
----
-title: cto-ai-toolbox
-description: Landing page — living practices and tools amplifying a CTO, with a map of the repo
-last_updated: 2026-07-22
-approved_by:
-approved_when:
----
-
 # cto-ai-toolbox
 
-AI agents/skills for day to day job as a CTO.
+**AI agents/skills for the day-to-day job of a CTO.**
 
-Living practices and tools that amplify a CTO — a knowledge base built so that **any CTO can take a doc and implement it**. The core idea: the CTO is a hardcore Individual Contributor first, and AI (tools + a personal team of AI agents with different skills) is what lets one person pass through the cognitive complexity of any task — closing blind spots across business, development, org design, risks and IT strategy. Full intent: [Vision of AI-assisted CTO](personal/vision-ai-assisted-cto.md).
+Living practices and tools that amplify a CTO — collected so that any CTO can take a doc and put it to work, not just read it. The premise: a modern CTO is a hands-on individual contributor first, and AI — tools plus a personal team of AI agents — is what lets one person cut through the cognitive complexity of any task: technology, product, org design, risks, IT strategy. The full philosophy: [Vision of AI-assisted CTO](personal/vision-ai-assisted-cto.md).
 
-**Trust model:** every doc carries `approved_by` / `approved_when` frontmatter. Only docs approved by the CTO are ground truth; everything else is useful-but-unapproved context. Rules of the repo: [CLAUDE.md](CLAUDE.md).
+## Knowledge base
 
-## Map
-
-| Folder | What's inside |
+| Section | What you'll find |
 |---|---|
-| [personal/](personal/) | The CTO's own theses: vision, collaboration principles, conventions, research backlog. Verbatim, never synthesized. |
-| [knowledge-base/](knowledge-base/) | All final artifacts: curated source lists (EN base + RU enrichment), AI practices ([ai-practices/](knowledge-base/ai-practices/)), tools docs. |
-| [research/](research/) | Research workbench — one subfolder per topic; results are promoted into knowledge-base/ on completion. |
-| [docs/](docs/) | Planning home: specs and plans for all researches and tasks, plus the consultant stance. |
-| [agents/](agents/) | Personal AI team: specs of agents plugged in per request to validate, challenge and research. Installed as real Claude Code subagents in `.claude/agents/`. |
+| [Source lists](knowledge-base/README.md) | Curated, link-verified entry points into every side of the CTO craft: technologies, tech radars, engineering principles of large companies, the CTO role, engineering management, agile/scrum, discovery & delivery. English base + Russian enrichment. |
+| [AI practices](knowledge-base/ai-practices/README.md) | AI-era engineering practices. First package: [loop engineering](knowledge-base/ai-practices/loop-engineering/README.md) — designing systems that prompt agents for you, instead of prompting them yourself. |
+| [Tools](knowledge-base/tools/README.md) | Docs on concrete tools that amplify daily CTO work. |
 
-## References
+New here? Start with the [knowledge base overview](knowledge-base/knowledge-base-overview.md).
 
-- [CLAUDE.md](CLAUDE.md) — operating guide (conventions, trust model, lifecycle)
-- [personal/vision-ai-assisted-cto.md](personal/vision-ai-assisted-cto.md) — Vision of AI-assisted CTO
-- [knowledge-base/](knowledge-base/) — all final artifacts (source lists, practices, tools)
-- [knowledge-base/ai-practices/loop-engineering/](knowledge-base/ai-practices/loop-engineering/) — loop engineering practice package
+## Contributing
+
+The repo runs on a strict working discipline — an explicit trust model, atomic changes, a research lifecycle. Humans: see [CONTRIBUTING.md](CONTRIBUTING.md). AI assistants: follow [CLAUDE.md](CLAUDE.md).
