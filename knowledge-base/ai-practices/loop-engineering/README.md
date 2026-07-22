@@ -1,6 +1,6 @@
 ---
 title: loop-engineering — practice package
-description: Landing — loop engineering package: definition, history, deep dive, adoption case; EN base + RU companions
+description: "Landing — loop engineering package: definition, history, deep dive, adoption case; EN base + RU companions"
 last_updated: 2026-07-22
 approved_by:
 approved_when:
