@@ -46,6 +46,25 @@ Refinement (statement of 2026-07-22, later the same day):
 
 > For planning use /docs/ (I believe your planning skill is called superpowers) — and here all the specs for all researches and tasks.
 
+Refinement (statement of 2026-07-22): a dump of the planning rules from another project of the CTO, with the instruction "take the best from it — how planning itself works via superpowers — and update claude.md":
+
+> ## Specs and plans — mandatory
+>
+> - Any new functionality, behavior change or non-trivial refactoring starts with the superpowers:brainstorming skill. No code is written until the design is approved.
+> - Save the approved spec to docs/superpowers/specs/YYYY-MM-DD-<topic>-design.md and commit it as a separate commit before implementation starts.
+> - After the spec — superpowers:writing-plans: the plan goes to docs/superpowers/plans/YYYY-MM-DD-<feature>.md, also committed before code.
+> - At the end of the work on a feature, update the spec if the implementation deviated from it: the spec must describe what was actually done.
+> - Exception: trivial edits (typos, config, a bugfix in 1–2 files without behavior change) — no spec needed, but explicitly say the task is going without a spec.
+>
+> ## Separation of docs/superpowers/ and .superpowers/
+>
+> - docs/superpowers/ — permanent documentation (specs, plans). Always committed to git.
+> - .superpowers/ — ephemeral working state of skills (review diffs and progress.md from subagent-driven-development, brainstorm-server mockups). Never goes into git.
+> - .superpowers/ must be in the root .gitignore. Add this line right at project initialization — do not rely on the nested self-ignores of individual skills.
+> - The contents of .superpowers/ can be deleted after a feature completes; nothing valuable for history lives there.
+
+Adaptation in this repo (see [CLAUDE.md](../CLAUDE.md), section "Specs and plans — mandatory"): docs/specs/ and docs/plans/ are used instead of docs/superpowers/* (the /docs/ canon is set above); design approval = filling approved_by/approved_when in the spec.
+
 ## Approval, atomicity, knowledge base
 
 Statement of 2026-07-22 (later the same day):

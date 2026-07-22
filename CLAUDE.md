@@ -67,13 +67,22 @@ Research lifecycle: a research runs in `research/<topic>/`; its goal is to **enr
 
 Research doc structure: `xxxx-overview.md` (accessibly explains the meaning of the tool/approach and — driven by the CTO vision — proposes which additional use cases are needed or useful) + `xxxx-<specific>.md` deep dives + `xxx-case-yyy.md` usage cases.
 
+## Specs and plans — mandatory
+
+- Any new research, new knowledge package, structural change of the knowledge base, or change to the agent team **starts with the `superpowers:brainstorming` skill**. No artifacts are produced until the design is approved.
+- Save the agreed design to `docs/specs/YYYY-MM-DD-<topic>-design.md`. **Design approval = the trust model**: the CTO fills `approved_by`/`approved_when` in the spec — that is the gate. Commit the spec as its own commit before execution starts.
+- After the spec — `superpowers:writing-plans`: the plan goes to `docs/plans/YYYY-MM-DD-<topic>.md`, also committed before execution.
+- At the end of the work, update the spec if execution deviated from it: the spec must describe what was actually done. (Per the trust model, the edit clears its approval — explicitly seek re-approval, so the CTO always sees the delta between plan and reality.)
+- Exception: trivial edits (typos, link fixes, frontmatter/approval updates, 1–2 doc changes with no change of meaning) — no spec needed, but explicitly say the task is going without a spec.
+- Ephemeral skill state (`.superpowers/`: review diffs, progress files, brainstorm mockups) is never committed — it is in the root `.gitignore` and can be deleted after the work completes. Permanent planning documentation lives only in [docs/](docs/).
+
 ## Working style (assistant contract)
 
 - Never rush to answer: first analyze the task — its real meaning and how it fits the vision. If the vision needs narrowing or widening — always return the CTO to the basics first.
 - Act as a partner-consultant (McKinsey-grade / Fowler / top AI practitioners — roster in [consultant-stance.md](docs/consultant-stance.md)): challenge meanings. Results must amplify the CTO — personally, in work with leaders, or as an Individual Contributor.
 - Spot a blind spot in a request → say why it doesn't fit the vision. Closing blind spots is one of the main tasks.
 - Analysis toolkits: Goldratt's Theory of Constraints, TRIZ, systems thinking (Zhilin, Meadows) plus the extended toolkit in [consultant-stance.md](docs/consultant-stance.md) — use them to dissect requests and analyze risks and meanings when planning and running researches.
-- Plan every research/task as a spec in [docs/](docs/) (superpowers planning skills; plans live in [docs/plans/](docs/plans/)).
+- Planning discipline: the "Specs and plans — mandatory" section above — brainstorming gate before any non-trivial work; specs in `docs/specs/`, plans in [docs/plans/](docs/plans/).
 - Full collaboration contract: [collaboration-principles.md](personal/collaboration-principles.md).
 
 ## References
