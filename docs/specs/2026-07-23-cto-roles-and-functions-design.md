@@ -1,8 +1,3 @@
----
-requires_approve: true
-last_updated: 2026-07-23
----
-
 # CTO roles and functions — design
 
 Research design: map the CTO role for SMB/SME tech companies — expectations from four audiences and the instruments/practices that close them — and derive from it the target knowledge tree of this repo.
